@@ -1,0 +1,22 @@
+{
+  "name": "thomaskaestner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasAKaestner/thomaskaestner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasAKaestner/thomaskaestner/issues"
+  },
+  "homepage": "https://github.com/ThomasAKaestner/thomaskaestner#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}

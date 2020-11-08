@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</head>
+<body class="font-sans text-gray-900 h-full">
+<div class="flex h-screen">
+    <div class="m-auto">
+        <img class="w-56 sm:w-64 md:w-64 lg:w-64" src="img/TAK.png">
+        <p class="name text-center sm:text-lg md:text-xl lg:text-2xl"></p>
+    </div>
+</div>
+<div class="h-screen bg-black">
+    <div class="flex pl-12 pr-12 h-auto">
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+            <img src="img/TAK.png">
+        </div>
+        <div class="flex-1 text-gray-800 text-center bg-gray-500 px-4 py-2 m-2">
+            Item that cannot grow or shrink
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+            Item that can grow or shrink if needed
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+            Item that can grow or shrink if needed
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+            Item that can grow or shrink if needed
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var typed = new Typed('.name', {
+        // Waits 1000ms after typing "First"
+        strings: ['Thomas Kästner'],
+        typeSpeed: 40,
+        backSpeed: 60,
+        backDelay: 1500,
+        loop: true
+    });
+</script>
