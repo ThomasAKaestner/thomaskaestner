@@ -2,36 +2,178 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Thomas Kästner</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body class="font-sans text-gray-900 h-full">
+<!-- First Section -->
 <div class="flex h-screen">
     <div class="m-auto">
-        <img class="w-56 sm:w-64 md:w-64 lg:w-64" src="img/TAK.png">
-        <p class="name text-center sm:text-lg md:text-xl lg:text-2xl"></p>
+        <img class="w-56 sm:w-64 md:w-64 lg:w-64 " src="img/TAK.png">
+        <p class="pt-12 name text-center text-4xl sm:text-4xl md:text-4xl lg:text-2xl h-12"></p>
     </div>
 </div>
-<div class="h-screen bg-black">
-    <div class="flex pl-12 pr-12 h-auto">
-        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
-            <img src="img/TAK.png">
+
+<!-- Second Section: AboutMe -->
+<div class="flex h-screen" style="background-color: #2B7A78">
+    <div class="text-center p-10 w-full">
+        <p class="aboutMe h-12 text-white md:text-4xl lg:text-2xl"></p>
+    </div>
+</div>
+
+<!-- Third Section: TechStack -->
+<div class="h-auto bg-black">
+    <div class="p-10 text-center">
+        <p class="techStack h-12 text-white md:text-4xl lg:text-2xl"></p>
+    </div>
+    <div class="flex flex-wrap pl-12 pr-12 h-auto pb-2">
+        <div class="flex-1 text-black text-center items-center bg-white px-4 py-2 m-2 pl-2 pr-2 myCards">
+            <img class="w-24 mx-auto" src="img/icons/aws.png">
+            <h3>Amazon Webservices</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
         </div>
-        <div class="flex-1 text-gray-800 text-center bg-gray-500 px-4 py-2 m-2">
-            Item that cannot grow or shrink
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/php.png">
+            <h3>PHP</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
         </div>
-        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
-            Item that can grow or shrink if needed
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/javascript.png">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
         </div>
-        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
-            Item that can grow or shrink if needed
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/jquery.png">
+            <h3>jQuery</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
         </div>
-        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
-            Item that can grow or shrink if needed
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/mySql.png">
+            <h3>PHP</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
+        </div>
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/laravel.png">
+            <h3>Laravel</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap pl-12 pr-12 h-auto pb-12">
+        <div class="flex-1 text-black text-center items-center bg-white px-4 py-2 m-2 pl-2 pr-2 myCards">
+            <img class="w-24 mx-auto" src="img/icons/tailwindcss-dark.png">
+            <h3>Tailwindcss</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
+        </div>
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/vue-dark.png">
+            <h3>Vue.js</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
+        </div>
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/git.png">
+            <h3>GIT</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
+        </div>
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/java.png">
+            <h3>Java</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
+        </div>
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/api.png">
+            <h3>Rest API</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
+        </div>
+        <div class="flex-1 text-gray-800 text-center bg-white px-4 py-2 m-2">
+            <img class="w-24 mx-auto" src="img/icons/bootstrap.png">
+            <h3>Bootstrap</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren,</p>
         </div>
     </div>
 </div>
+
+<!-- Fourth section: Contact -->
+<div class="h-screen" style="background-color: #2B7A78">
+    <div class="p-10 text-center w-full">
+        <p class="contact h-12 contact text-white md:text-4xl lg:text-2xl"></p>
+    </div>
+    <div class="flex flex-wrap">
+        <div class="flex-1 text-center ">
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left" for="reason">
+                        Reason
+                    </label>
+                    <select id="reason"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <option>Other</option>
+                        <option>Job offer</option>
+                        <option>I need a website</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left"
+                           for="firstName">Firstname</label>
+                    <input type="text" id="firstName"
+                           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left" for="lastName">Lastname</label>
+                    <input type="text" id="lastName"
+                           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left" for="email">Email</label>
+                    <input type="email" id="email"
+                           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left" for="content">Message</label>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="content"></textarea>
+                </div>
+                <div class="mb-4">
+                    <button class="rounded focus:outline-none focus:shadow-outline text-white font-bold py-2 px-4 content-end	" style="background-color: #2B7A78" type="button">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="flex-1 text-center bg-white px-4 py-2 m-2 px-8">
+            <ul>
+                <li>Github</li>
+                <li>LinkedIn</li>
+                <li>Xing</li>
+                <li>Email</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
 <script>
@@ -40,7 +182,35 @@
         strings: ['Thomas Kästner'],
         typeSpeed: 40,
         backSpeed: 60,
-        backDelay: 1500,
-        loop: true
+        backDelay: 2500,
+        loop: true,
+        showCursor: false
+    });
+
+    var techStack = new Typed('.techStack', {
+        strings: ['My Tech Stack'],
+        typeSpeed: 40,
+        backSpeed: 60,
+        backDelay: 2500,
+        loop: true,
+        showCursor: false
+    });
+
+    var aboutMe = new Typed('.aboutMe', {
+        strings: ['About Me'],
+        typeSpeed: 40,
+        backSpeed: 60,
+        backDelay: 2500,
+        loop: true,
+        showCursor: false
+    });
+
+    var contact = new Typed('.contact', {
+        strings: ['Contact'],
+        typeSpeed: 40,
+        backSpeed: 60,
+        backDelay: 2500,
+        loop: true,
+        showCursor: false
     });
 </script>
