@@ -119,59 +119,68 @@
 
 <!-- Fourth section: Contact -->
 <div class="h-auto" style="background-color: #2B7A78">
-    <div class="p-10 text-center w-full">
-        <p class="contact h-12 contact text-white text-4xl sm:text-4xl md:text-4xl lg:text-2xl"></p>
-    </div>
-    <div class="flex flex-wrap pl-12 pr-12 h-auto pb-2">
-        <div class="text-center flex-row w-full sm:flex-row w-full md:flex-1 lg:flex-1 xl:flex-1">
-            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-                <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left text-xl sm:text-xl md:text-sm lg:text-sm" for="reason">
-                        Reason
-                    </label>
-                    <select id="reason"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
-                        <option>Other</option>
-                        <option>Job offer</option>
-                        <option>I need a website</option>
-                    </select>
+    <div class="container bg-gray-200 mx-auto w-full h-full">
+        <div class="relative wrap overflow-hidden p-10 h-full">
+            <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+            <!-- right timeline -->
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                    <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
                 </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 font-bold mb-2 text-left text-xl sm:text-xl md:text-sm lg:text-sm"
-                           for="firstName">Firstname</label>
-                    <input type="text" id="firstName"
-                           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl sm:text-xl md:text-base lg:text-base">
+                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                    <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
+                    <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply
+                        dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.</p>
                 </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left text-xl sm:text-xl md:text-sm lg:text-sm" for="lastName">Lastname</label>
-                    <input type="text" id="lastName"
-                           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl sm:text-xl md:text-base lg:text-base">
+            </div>
+
+            <!-- left timeline -->
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                    <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
                 </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left text-xl sm:text-xl md:text-sm lg:text-sm" for="email">Email</label>
-                    <input type="email" id="email"
-                           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl sm:text-xl md:text-base lg:text-base">
+                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                    <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
+                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is
+                        simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.</p>
                 </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2 text-left text-xl sm:text-xl md:text-sm lg:text-sm" for="content">Message</label>
-                    <textarea
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl sm:text-xl md:text-base lg:text-base"
-                            id="content"></textarea>
+            </div>
+
+            <!-- right timeline -->
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                    <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
                 </div>
-                <div class="mb-4">
-                    <button class="rounded focus:outline-none focus:shadow-outline text-white font-bold content-end py-4 px-8 text-xl sm:py-4 px-8 text-xl md:py-2 px-4 lg:py-2 px-4 text-base xl:py-2 px-4 text-base"
-                            style="background-color: #2B7A78" type="button">Submit
-                    </button>
+                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                    <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
+                    <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply
+                        dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.</p>
                 </div>
-            </form>
-        </div>
-        <div class="text-center flex-row w-full sm:flex-row w-full md:flex-1 lg:flex-1 xl:flex-1">
-            <ul>
-                <li><img class="w-20 mx-auto py-10" src="img/icons/git.png"> </li>
-                <li><img class="w-20 mx-auto py-10" src="img/icons/linkedin.png"></li>
-                <li><img class="w-20 mx-auto py-10" src="img/icons/xing.png"></li>
-                <li><img class="w-20 mx-auto py-10" src="img/icons/git.png"></li>
-            </ul>
+            </div>
+
+            <!-- left timeline -->
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                    <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+                </div>
+                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                    <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
+                    <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is
+                        simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
