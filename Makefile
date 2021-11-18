@@ -1,2 +1,2 @@
 serve:
-	npm run lite
+	npm run serve
