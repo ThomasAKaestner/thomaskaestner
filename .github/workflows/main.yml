@@ -15,7 +15,6 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm test
-      - run: npm run build
 
       - uses: actions/checkout@master
       - uses: shallwefootball/s3-upload-action@master
