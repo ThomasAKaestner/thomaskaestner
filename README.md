@@ -1,4 +1,4 @@
-# thomaskaestner
+# Thomas Kaestner
 
 ## Project setup
 ```
