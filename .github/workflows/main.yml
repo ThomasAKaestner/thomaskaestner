@@ -11,10 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+      - name: Cache node modules
+      - uses: actions/cache@v1
         with:
           node-version: '14'
+      - name: Install
       - run: npm install
+
+      - name: Test
       - run: npm test
+
+      - name: Build
       - run: npm run build
 
       - uses: actions/checkout@master
