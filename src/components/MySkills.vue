@@ -1,5 +1,7 @@
 <template>
-  <h1 class="center">Table with my skills</h1>
+  <div class="bg-red-300 flex h-screen">
+      Skills:
+  </div>
 </template>
 
 <script>

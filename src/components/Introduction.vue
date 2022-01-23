@@ -1,8 +1,10 @@
 <template>
   <!-- This div should be always taking the screen hight -->
-  <div id="fullscreen">
-    <img height="200px" width="200px" src="/src/assets/logo.png">
-    <h1 class="center">Thomas Kästner</h1>
+  <div id="fullscreen" class="bg-gray-100 flex h-screen">
+    <div class="m-auto">
+      <img alt="Vue logo" src="assets/logo.png">
+      <h1 class="center">Thomas Kästner</h1>
+    </div>
   </div>
 </template>
 
