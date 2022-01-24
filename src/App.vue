@@ -5,7 +5,6 @@
     <Contact />
   </div>
 </template>
-
 <script>
 import Introduction from "@/components/Introduction";
 import MySkills from "@/components/MySkills";
