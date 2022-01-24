@@ -47,6 +47,10 @@
         <img class="w-32" src="img/icons/api.png">
         <p>Api Development</p>
       </div>
+      <div>
+        <img class="w-32" src="img/icons/api.png">
+        <p>CI/CD-Pipelines</p>
+      </div>
     </div>
   </div>
 </template>
