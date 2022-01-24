@@ -1,9 +1,9 @@
 <template>
-  <!-- This div should be always taking the screen hight -->
-  <div id="fullscreen" class="bg-gray-100 flex h-screen">
+  <div class="bg-black flex h-screen">
     <div class="m-auto">
-      <img alt="Vue logo" src="assets/logo.png">
-      <h1 class="center">Thomas Kästner</h1>
+      <img width="300" height="300" class="m-auto py-4" src="img/TAK.png">
+      <h1 class="center text-gray-100">Thomas Kästner</h1>
+      <div class="text-gray-100">Software Entwicklung & IT-Consulting</div>
     </div>
   </div>
 </template>
@@ -13,11 +13,3 @@ export default {
   name: "Introduction"
 }
 </script>
-
-<style scoped>
-#fullscreen {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-</style>

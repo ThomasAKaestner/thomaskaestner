@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Introduction />
-    Test
     <MySkills />
     <Contact />
   </div>
@@ -29,4 +28,5 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+@import './assets/styles/custom_styles.css';
 </style>
