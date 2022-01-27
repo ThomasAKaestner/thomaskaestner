@@ -2,6 +2,7 @@
   <div id="app">
     <Introduction />
     <MySkills />
+    <MyProjects />
     <Contact />
   </div>
 </template>
@@ -9,6 +10,7 @@
 import Introduction from "@/components/Introduction";
 import MySkills from "@/components/MySkills";
 import Contact from "@/components/Contact";
+import MyProjects from "@/components/MyProjects";
 
 export default {
   name: 'App',
@@ -16,6 +18,7 @@ export default {
     Contact,
     MySkills,
     Introduction,
+    MyProjects
   }
 }
 </script>

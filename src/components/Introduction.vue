@@ -2,7 +2,7 @@
   <div class="bg-black flex h-screen">
     <div class="m-auto">
       <img width="300" height="300" class="m-auto py-4" src="img/TAK.png">
-      <h1 class="center text-gray-100">Thomas Kästner1</h1>
+      <h1 class="center text-gray-100">Thomas Kästner</h1>
       <div class="text-gray-100">Software Entwicklung & IT-Consulting</div>
     </div>
   </div>
