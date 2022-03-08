@@ -7,20 +7,28 @@
       <div class="m-auto">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-4 ">
           <div>
-            <img class="w-32 m-auto" src="img/icons/php.png">
-            <p class="text-center">Github</p>
+            <a href="https://github.com/ThomasAKaestner">
+              <img class="w-32 m-auto" src="img/icons/github.png">
+              <p class="text-center">Github</p>
+            </a>
           </div>
           <div>
-            <img class="w-32 m-auto" src="img/icons/php.png">
-            <p class="text-center">LinkedIn</p>
+            <a href="https://de.linkedin.com/in/thomas-alan-k%C3%A4stner-931b67199">
+              <img class="w-32 m-auto" src="img/icons/linkedin.png">
+              <p class="text-center">LinkedIn</p>
+            </a>
           </div>
           <div>
-            <img class="w-32 m-auto" src="img/icons/php.png">
-            <p class="text-center">Xing</p>
+            <a href="https://www.xing.com/profile/ThomasAlan_Kaestner2">
+              <img class="w-32 m-auto" src="img/icons/xing.png">
+              <p class="text-center">Xing</p>
+            </a>
           </div>
           <div>
-            <img class="w-32 m-auto" src="img/icons/php.png">
-            <p class="text-center">Email</p>
+            <a href = "mailto: thomas.kaestner@protonmail.com">
+              <img class="w-32 m-auto" src="img/icons/mail.png">
+              <p class="text-center">Email</p>
+            </a>
           </div>
         </div>
       </div>

@@ -8,7 +8,6 @@
         <div>
           <img class="w-32 m-auto" src="img/icons/php.png">
           <p>PHP</p>
-          <p>Seit mehr als 3 Jahren entwickle ich mit PHP Backendapplikationen.</p>
         </div>
         <div>
           <img class="w-32 m-auto" src="img/icons/laravel.png">
@@ -47,14 +46,14 @@
           <p>Docker</p>
         </div>
         <div>
-          <img class="w-32 m-auto" src="img/icons/testing.png">
+          <img class="w-32 m-auto" src="img/icons/automated-testing.png">
           <p>Automated Testing</p></div>
         <div>
           <img class="w-32 m-auto" src="img/icons/api.png">
           <p>Api Development</p>
         </div>
         <div>
-          <img class="w-32 m-auto" src="img/icons/api.png">
+          <img class="w-32 m-auto" src="img/icons/pipelines.png">
           <p>CI/CD-Pipelines</p>
         </div>
       </div>
