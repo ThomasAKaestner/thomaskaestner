@@ -20,7 +20,7 @@
                 Entwicklung von Backend Middelwares für SCAYLE Kunden
               </p>
               <p class="leading-tight text-center pt-2">
-                ab 2021 Dezember
+                ab 2021 Dezember - März 2022
               </p>
             </div>
             <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -70,7 +70,9 @@
             <div
                 class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
             >
-              <h3 class="font-semibold text-lg mb-1">Hq Software Solutions UG</h3>
+              <a href="https://www.upaxis.com/">
+                <h3 class="font-semibold text-lg mb-1 underline">Hq Software Solutions UG</h3>
+              </a>
               <p class="leading-tight text-justify">
                 Entwicklung einer cloudbasierten Performancemarketingplattform
               </p>

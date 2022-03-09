@@ -3,8 +3,8 @@
     <div class="text-center font-semibold text-lg py-4">
       Meine Fähigkeiten
     </div>
-    <div class="flex h-auto md:h-screen px-4 md:px-32 lg:px-64">
-      <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
+    <div class="md:flex h-auto md:h-screen px-4 md:px-32 lg:px-64">
+      <div class="grid grid-cols-1 md:grid-cols-6 md:gap-8 md:gap-y-0 gap-y-12">
         <div>
           <img class="w-32 m-auto" src="img/icons/php.png">
           <p>PHP</p>
