@@ -34,7 +34,7 @@
           Tailwind.css
         </div>
         <div>
-          <img class="w-32 m-auto" src="img/icons/mysql.png">
+          <img class="w-32 m-auto" src="img/icons/mySql.png">
           <p>MySql</p>
         </div>
         <div>
