@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <Introduction />
+    <AboutMe />
+    <MyMotivation />
     <MySkills />
     <MyProjects />
     <Contact />
@@ -11,10 +13,14 @@ import Introduction from "@/components/Introduction";
 import MySkills from "@/components/MySkills";
 import Contact from "@/components/Contact";
 import MyProjects from "@/components/MyProjects";
+import MyMotivation from "@/components/MyMotivation";
+import AboutMe from "@/components/AboutMe";
 
 export default {
   name: 'App',
   components: {
+    AboutMe,
+    MyMotivation,
     Contact,
     MySkills,
     Introduction,
