@@ -6,13 +6,12 @@
           <div class="w-90 md:w-1/3">
             <p class="font-semibold text-lg mb-8">Meine Motivation</p>
             <p class="text-center">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-              eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-              eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-              et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-              sit amet. Test
+              Mich fasziniert der technische Wandel und das Lösen von Problemen.
+              Ich bin begeistert davon technische Projekte mit einem Team umzusetzten zu können.
+              Ständiger Austausch mit dem Team ist für mich ein muss, da viele Probleme vermieden werden können
+              und die Entwicklung reibungsloser ablaufen kann.
+              Ob technische Planung, Entwicklung, Codereviewing oder Testing.
+              Mir ist es wichtig an Projekten und Produkten zu Arbeiten, von welchen ich fest überzeugt bin.
             </p>
           </div>
         </div>
