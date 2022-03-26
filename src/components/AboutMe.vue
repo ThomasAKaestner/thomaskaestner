@@ -6,10 +6,10 @@
           <div class="w-90 md:w-1/3">
             <p class="font-semibold text-lg mb-8">Über mich</p>
             <p class=" text-center">
-              Hi, ich bin Thomas, ein leidenschaftlicher Softwareentwickler aus Hamburg.
-              Bereits seit 2018 beschäftige ich mich mit der Softwareentwicklung. Im laufe der Zeit konnte viele
-              verschiedene Programmiersprachen und Unternehmen kennenlernen. Ich habe
-              mich auf <b>PHP, Laravel, GO</b> und <b>AWS</b> spezialisiert.
+              Hi, ich bin Thomas, ein leidenschaftlicher Sofwareentwickler aus Hamburg. Seit 2018 beschäftige ich mich
+              intensiv mit der Softwareentwicklung und habe
+              seitdem unterschiedliche Programmiersprachen bei verschiedenen Firmen erlernt.
+              Insbesondere habe ich mich auf <b>PHP</b>, <b>Laravel</b>, <b>GO</b> und <b>AWS</b> spezialisiert.
             </p>
           </div>
         </div>
