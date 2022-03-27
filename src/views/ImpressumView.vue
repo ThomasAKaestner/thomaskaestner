@@ -5,7 +5,6 @@
       <ul>
         <li>Thomas Kästner</li>
         <li>Email: thomaskaestner@protonmail.com</li>
-        <li></li>
       </ul>
     </div>
   </div>
