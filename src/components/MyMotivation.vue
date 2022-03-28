@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black">
+  <div class="bg-black" id="motivation">
     <div class="flex lg:h-screen h-auto px-4 md:px-32 lg:px-64">
       <div class="container m-auto">
         <div class="h-screen grid place-items-center text-gray-300">

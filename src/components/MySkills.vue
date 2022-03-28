@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-300">
+  <div class="bg-gray-300" id="mySkills">
     <div class="text-center font-semibold text-lg py-4">
       Meine Fähigkeiten
     </div>
