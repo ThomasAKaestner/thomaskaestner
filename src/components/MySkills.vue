@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-300" id="mySkills">
     <div class="text-center font-semibold text-lg py-4">
-      Meine Fähigkeiten
+      Fähigkeiten
     </div>
     <div class="md:flex lg:h-screen md:h-auto px-4 md:px-32 lg:px-64">
       <div class="grid grid-cols-1 md:grid-cols-6 md:gap-8 md:gap-y-0 gap-y-12">

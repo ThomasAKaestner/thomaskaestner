@@ -4,7 +4,7 @@
       <div class="container m-auto">
         <div class="h-screen grid place-items-center text-gray-300">
           <div class="w-90 md:w-1/3">
-            <p class="font-semibold text-lg mb-8">Meine Motivation</p>
+            <p class="font-semibold text-lg mb-8">Motivation</p>
             <p class="text-center">
               Mich fasziniert der technische Wandel und das Lösen von Problemen.
               Ich bin begeistert davon technische Projekte mit einem Team umzusetzten zu können.

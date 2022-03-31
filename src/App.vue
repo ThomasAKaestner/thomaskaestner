@@ -4,6 +4,8 @@
     <nav class="bg-black text-gray-200">
       <router-link to="/">Hauptseite</router-link>
       |
+      <router-link to="/portfolio">Portfolio</router-link>
+      |
       <router-link to="/impressum">Impressum</router-link>
     </nav>
   </div>

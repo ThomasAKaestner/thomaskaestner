@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black text-gray-200" id="myProjects">
     <div class="text-center font-semibold text-lg py-4">
-      Meine Projekte
+      Projekte
     </div>
     <div class="flex md:h-screen">
       <div class="container m-auto">
