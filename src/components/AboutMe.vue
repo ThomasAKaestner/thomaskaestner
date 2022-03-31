@@ -8,7 +8,7 @@
             <p class=" text-center">
               Hi, ich bin Thomas, ein leidenschaftlicher Sofwareentwickler aus Hamburg. Seit 2018 beschäftige ich mich
               intensiv mit der Softwareentwicklung und habe
-              seitdem unterschiedliche Programmiersprachen bei verschiedenen Firmen erlernt.
+              seitdem unterschiedliche Programmiersprachen durch verschiedene Projekte erlernt.
               Insbesondere habe ich mich auf <b>PHP</b>, <b>Laravel</b>, <b>GO</b> und <b>AWS</b> spezialisiert.
             </p>
           </div>
