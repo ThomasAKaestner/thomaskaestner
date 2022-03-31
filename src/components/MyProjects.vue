@@ -3,7 +3,7 @@
     <div class="text-center font-semibold text-lg py-4">
       Projekte
     </div>
-    <div class="flex md:h-screen">
+    <div class="flex md:h-screen pb-12 md:mb-0">
       <div class="container m-auto">
         <div
             class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black"
