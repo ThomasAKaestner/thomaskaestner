@@ -13,35 +13,27 @@
               System, so dass Sie bei Wunsch Inhalte selbst über eine einfache Bedienoberfläche anpassen können.
             </div>
             <div class="border p-4 m-4 cursor-pointer">
-              Jetzt Angebot anfordern
+              <a href="#contact">Jetzt Angebot anfordern</a>
             </div>
           </div>
           <div class="border p-4">
             <h3 class="pb-4 underline">Backend Applikation</h3>
             <div>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Sie sind auf der Suche nach einem GO oder PHP Entwickler für ihre Backendapplikation? Ich konzepiere,
+              entwickle oder maintaine ihre Backendapplikation in PHP oder GO.
             </div>
             <div class="border p-4 m-4 cursor-pointer">
-              Jetzt Angebot anfordern
+              <a href="#contact">Jetzt Angebot anfordern</a>
             </div>
           </div>
           <div class="border p-4">
             <h3 class="pb-4 underline">Kontakt</h3>
             <div>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-              gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Sie brauchen Technisches Wissen oder wollen anderweitig Kontakt aufbauen?
+              Schreiben Sie mich gerne an.
             </div>
             <div class="border p-4 m-4 cursor-pointer">
-              Kontakt
+              <a href="#contact">Kontakt</a>
             </div>
           </div>
         </div>
