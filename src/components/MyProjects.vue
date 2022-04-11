@@ -3,7 +3,7 @@
     <div class="text-center font-semibold text-lg py-4">
       Projekte
     </div>
-    <div class="flex md:h-screen pb-12 md:mb-0">
+    <div class="flex pb-12 md:mb-0">
       <div class="container m-auto">
         <div
             class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black"
@@ -43,9 +43,25 @@
               <a href="https://www.scayle.com/">
                 <h3 class="font-semibold text-lg mb-1 underline">AboutYou SCAYLE</h3>
               </a>
+              <p class="font-bold text-left py-2">Tätigkeiten:</p>
               <p class="leading-tight text-justify">
                 Entwicklung von Backend Middelwares für SCAYLE Kunden
               </p>
+              <p class="font-bold text-left py-2">Technologien:</p>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
+                <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 8</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Laravel</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">PHPUnit</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS ECS</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SQS</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SNS</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS S3</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Docker</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">New Relic</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Gitlab CI\CD</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Cloudwatch</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
+              </div>
               <p class="leading-tight text-center pt-2">
                 ab 2021 Dezember - März 2022
               </p>
@@ -68,9 +84,25 @@
               <a href="https://www.aboutyou.de/">
                 <h3 class="font-semibold text-lg mb-1 underline">AboutYou Retail</h3>
               </a>
+              <p class="font-bold text-left py-2">Tätigkeiten:</p>
               <p class="leading-tight text-justify">
                 Entwicklung einer neuen Logistikapplikation und Carrier-Middelware.
               </p>
+              <p class="font-bold text-left py-2">Technologien:</p>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
+                <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 8</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 7.4</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Laravel</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Symfony</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS S3</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Docker</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">New Relic</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Redis</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Sentry</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">PHPUnit</div>
+              </div>
               <p class="leading-tight text-center pt-2">
                 ab 2020 März - 2021 Dezember
               </p>
@@ -103,6 +135,17 @@
               <p class="leading-tight text-justify">
                 Entwicklung einer cloudbasierten Performancemarketingplattform
               </p>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm py-2">
+                <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 7.2</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Aws Elastic Beanstalk</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">jQuery</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">HTML</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">CSS</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Bootstrap</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">Laravel</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">javaScript</div>
+                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS Redshift</div>
+              </div>
               <p class="leading-tight text-center pt-2">
                 ab 2018 Januar - 2020 März
               </p>
