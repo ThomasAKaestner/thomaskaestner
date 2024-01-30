@@ -1,9 +1,7 @@
 <template>
-  <div class="bg-gray-300" id="contact">
-    <div class="text-center font-semibold text-lg text-black py-4">
-      Kontakt
-    </div>
-    <div class="flex py-12 md:py-64">
+  <div class="customThirdColorFadeGrayBlack" id="contact">
+      <h4 class="text-3xl md:text-5xl font-bold pt-8 mb-6">Kontakt</h4>
+      <div class="flex py-12 md:py-32">
       <div class="m-auto">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-4 ">
           <div>

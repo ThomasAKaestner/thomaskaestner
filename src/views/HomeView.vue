@@ -1,32 +1,28 @@
 <template>
-  <div class="home">
-    <Introduction />
-    <AboutMe />
-    <MyProducts />
-    <MySkills />
-    <MyProjects />
-    <Contact />
-  </div>
+    <div class="home">
+        <Introduction/>
+        <MyProducts/>
+        <MyProjects/>
+        <Skills/>
+        <Contact/>
+    </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Introduction from "@/components/Introduction";
-import AboutMe from "@/components/AboutMe";
 import MyProjects from "@/components/MyProjects";
-import MySkills from "@/components/MySkills";
 import Contact from "@/components/Contact";
 import MyProducts from "@/components/MyProducts";
-
+import Skills from "@/components/Skills";
 export default {
-  name: 'HomeView',
-  components: {
-    MyProducts,
-    Contact,
-    MySkills,
-    MyProjects,
-    AboutMe,
-    Introduction
-  }
+    name: 'HomeView',
+    components: {
+        MyProducts,
+        Contact,
+        MyProjects,
+        Introduction,
+        Skills
+    }
 }
 </script>

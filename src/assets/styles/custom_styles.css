@@ -16,3 +16,29 @@
 .customtuerkisbackground {
     background-color: #52ab98;
 }
+
+.customThirdBackgroundColor {
+    background-color: #ecc960;
+}
+
+.customThirdTextColor {
+    color: #ecc960;
+}
+
+.customThirdColor {
+    color: #52ab98;
+}
+
+.customThirdStroke {
+    border: 2px solid #ecc960;
+}
+
+.customThirdColorFade {
+    background: linear-gradient(to bottom, black, #ecc960);
+
+}
+
+.customThirdColorFadeGrayBlack {
+    background: linear-gradient(to bottom, #D1D5DB, black);
+
+}

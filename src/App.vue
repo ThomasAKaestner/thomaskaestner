@@ -18,4 +18,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+
+@import './assets/styles/custom_styles.css';
 </style>

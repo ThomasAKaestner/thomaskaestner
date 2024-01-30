@@ -1,15 +1,73 @@
 <template>
-  <div class="bg-black flex h-screen" id="Introduction">
-    <div class="m-auto">
-      <img width="300" height="300" class="m-auto py-4" src="img/TAK.png">
-      <h1 class="center text-gray-100">Thomas Kästner</h1>
-      <div class="text-gray-100">Software Entwicklung & IT-Consulting</div>
+    <div class="bg-black flex flex-col h-screen" id="Introduction">
+        <div class="m-auto">
+            <div class="flex-col md:flex">
+                <div class="max-w-6xl md:mx-auto p-8 shadow-lg md:rounded-lg md:flex items-center text-black customThirdBackgroundColor">
+                    <!-- Text on the top or left for small screens -->
+                    <div class="w-full pb-8 sm:pr-8">
+                        <h1 class="text-3xl md:text-5xl text-black font-bold mb-6">Moin,</h1>
+                        <p class="">
+                            Ich bin <b>Thomas</b>, ein begeisterter <b>Backend-Softwareentwickler</b> aus Hamburg.
+                            Seit 2018 arbeite ich leidenschaftlich an Softwareprojekten im <b> E-Commerce und Logistik </b> Bereich und habe dabei vielfältige Programmiersprachen durch unterschiedliche Projekte gemeister. Insbesondere habe ich mich auf <b>PHP</b>,
+                            <b>Laravel</b>, <b>Symfony</b>, <b>GO</b> und <b>AWS</b> spezialisiert.
+                        </p>
+                        <div class="hidden md:grid grid-row grid-cols-1 grid-cols-6 gap-4 pt-6">
+                            <div>
+                                <a href="https://github.com/ThomasAKaestner">
+                                    <img class="w-4 md:w-8 pb-2 m-auto" src="img/icons/github.png">
+                                    <p class="text-center">Github</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://de.linkedin.com/in/thomas-alan-k%C3%A4stner-931b67199">
+                                    <img class="w-6 md:w-8 pb-2 m-auto" src="img/icons/linkedin.png">
+                                    <p class="text-center">LinkedIn</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.xing.com/profile/ThomasAlan_Kaestner2">
+                                    <img class="w-6 md:w-8 pb-2 m-auto" src="img/icons/xing.png">
+                                    <p class="text-center">Xing</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="mailto: thomas.kaestner@protonmail.com">
+                                    <img class="w-8 pb-2 xs:w-4 m-auto" src="img/icons/mail.png">
+                                    <p class="text-center">Email</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="mailto: thomas.kaestner@protonmail.com">
+                                    <img class="w-8 pb-2 m-auto" src="img/icons/mail.png">
+                                    <p class="text-center">Malt</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="mailto: thomas.kaestner@protonmail.com">
+                                    <img class="w-8 pb-2 m-auto" src="img/icons/mail.png">
+                                    <p class="text-center">Freelancer Map</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image on the bottom or right for small screens -->
+                    <div class="w-full">
+                        <div class="flex justify-center">
+                            <div>
+                                <img src="/img/default.jpeg" alt="Your Image" class="rounded-full h-64 w-64 object-cover overflow-hidden">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  name: "Introduction"
+    name: "Introduction"
 }
 </script>
