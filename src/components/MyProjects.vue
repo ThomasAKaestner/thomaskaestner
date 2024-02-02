@@ -26,10 +26,10 @@
                                 <h3 class="font-semibold text-lg mb-1 underline">Gartenhaus GmbH/ Ydeon group</h3>
                             </a>
                             <p class="leading-tight text-justify">
-                                Entwicklung einer provisionsbasierten IT-Recruitmentplattform
+                                Entwicklung von MicroService apps basierend auf Serverless & Symfony
                             </p>
                             <p class="leading-tight text-center pt-2">
-                                ab März 2022
+                                ab April 2023
                             </p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
                             </div>
                             <p class="leading-tight text-center pt-2">
-                                ab 2021 Dezember - März 2022
+                                ab 2023 April - Juni 2023
                             </p>
                         </div>
                         <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -72,6 +72,46 @@
                             <div
                                     class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-300 shadow"
                             ></div>
+                        </div>
+                    </div>
+
+                    <!-- right -->
+                    <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-gray-300 pointer-events-none"></div>
+                            </div>
+                            <div
+                                    class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-300 shadow"
+                            ></div>
+                        </div>
+                        <div
+                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+                        >
+                            <a href="https://procuros.io/de">
+                                <h3 class="font-semibold text-lg mb-1 underline">Procuros</h3>
+                            </a>
+                            <p class="leading-tight text-justify">
+                                Entwicklung einer EDI Messanger Plattform
+                            </p>
+                            <p class="font-bold text-left py-2">Technologien:</p>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 8</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Laravel</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">PHPUnit</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS ECS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SQS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SNS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS S3</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Docker</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">New Relic</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Gitlab CI\CD</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Cloudwatch</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
+                            </div>
+                            <p class="leading-tight text-center pt-2">
+                                ab März 2022 - April 2023
+                            </p>
                         </div>
                     </div>
 
