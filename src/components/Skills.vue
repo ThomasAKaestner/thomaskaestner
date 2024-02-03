@@ -86,7 +86,7 @@
                 <div class="flex-grow w-9/10">
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold">API Contection & Development</span>
+                            <span class="text-base text-gray-lite font-semibold">API Design & Development</span>
                             <span class="text-base font-semibold text-gray-lite pr-5">90%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">

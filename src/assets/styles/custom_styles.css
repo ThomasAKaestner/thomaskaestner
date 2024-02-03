@@ -42,3 +42,7 @@
     background: linear-gradient(to bottom, #D1D5DB, black);
 
 }
+
+.customThirdColorFadeBlackGray {
+    background: linear-gradient(to bottom, black, #D1D5DB);
+}

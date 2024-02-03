@@ -3,6 +3,7 @@
         <Introduction/>
         <MyProducts/>
         <MyProjects/>
+        <Certifications />
         <Skills/>
         <Contact/>
     </div>
@@ -15,9 +16,11 @@ import MyProjects from "@/components/MyProjects";
 import Contact from "@/components/Contact";
 import MyProducts from "@/components/MyProducts";
 import Skills from "@/components/Skills";
+import Certifications from "@/components/Certifications.vue";
 export default {
     name: 'HomeView',
     components: {
+        Certifications,
         MyProducts,
         Contact,
         MyProjects,
