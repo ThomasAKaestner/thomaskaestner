@@ -1,14 +1,31 @@
-name: Build Vue
-on: [push]
+name: Vue Build and Deploy
+
+on:
+    push:
+        branches:
+            - main # Change this to the branch you want to trigger the workflow
+
 jobs:
-    build_vue:
+    build-and-deploy:
         runs-on: ubuntu-latest
-        name: Build Vue
+
         steps:
-            - uses: actions/checkout@v2
-            - id: Build-Vue
-              uses: xRealNeon/VuePagesAction@1.0.1
+            - name: Checkout Repository
+              uses: actions/checkout@v2
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v3
               with:
-                  username: 'ThomasAKaestner'
-                  reponame: 'thomaskaestner'
-                  token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+                  node-version: 14
+
+            - name: Install Dependencies
+              run: npm install
+
+            - name: Build Vue.js Project
+              run: npm run build
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./dist
