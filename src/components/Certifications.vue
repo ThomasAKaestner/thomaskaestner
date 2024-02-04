@@ -8,15 +8,15 @@
             <h4 class="text-3xl md:text-5xl text-white font-bold mb-6">Zertifikate ...</h4>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div class="flex flex-col items-center cursor-pointer">
-                    <img class="w-32" src="/img/certifications/aws_cp.png">
+                    <img class="w-32" src="/img/certifications/awscp.png">
                     <p class="font-bold py-2" >AWS Cloud Practitioner</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img class="w-32" src="/img/certifications/aws_cd.png">
+                    <img class="w-32" src="/img/certifications/awscd.png">
                     <p class="font-bold py-2">AWS Cloud Developer</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img class="w-32" src="/img/certifications/aws_sa.png">
+                    <img class="w-32" src="/img/certifications/awssa.png">
                     <p class="font-bold py-2">AWS Solutions Architect</p>
                 </div>
                 <div class="flex flex-col items-center">
