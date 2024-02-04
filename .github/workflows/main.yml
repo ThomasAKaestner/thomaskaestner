@@ -33,4 +33,3 @@ jobs:
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./dist
-                  base_dir: ./dist # Add this line to set the base directory
