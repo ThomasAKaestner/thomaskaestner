@@ -20,14 +20,34 @@
                             ></div>
                         </div>
                         <div
-                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 md:mr-auto shadow-md"
                         >
                             <a href="https://simplerecruit.de">
-                                <h3 class="font-semibold text-lg mb-1 underline">Gartenhaus GmbH/ Ydeon group</h3>
+                                <h3 class="font-semibold text-lg mb-1 underline">Gartenhaus GmbH/ Ydeon group - Freelance</h3>
                             </a>
                             <p class="leading-tight text-justify">
-                                Entwicklung von MicroService apps basierend auf Serverless & Symfony
+                                - Konzeption & Entwicklung von Datahubs mit einer Serverless Architektur basierend auf Symfony, AWS & Terraform
+                                <br>
+                                - Implementierung eines neuen shops in shopware 6
                             </p>
+                            <p class="font-bold text-left py-2">Technologien:</p>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 8.2</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Serverless</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS Lambda</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Terraform</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS ECS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SQS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SNS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS S3</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Docker</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Sentry</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Github CI\CD</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Bitbucket CI\CD</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Cloudwatch</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Shopware 6</div>
+                            </div>
                             <p class="leading-tight text-center pt-2">
                                 ab April 2023
                             </p>
@@ -37,14 +57,16 @@
                     <!-- left -->
                     <div class="flex flex-row-reverse md:contents">
                         <div
-                                class="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+                                class="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 md:ml-auto shadow-md"
                         >
-                            <a href="https://www.scayle.com/">
-                                <h3 class="font-semibold text-lg mb-1 underline">OneCompanion</h3>
+                            <a href="https://onecompanion.de/">
+                                <h3 class="font-semibold text-lg mb-1 underline">One Companion - Freelance</h3>
                             </a>
                             <p class="font-bold text-left py-2">Tätigkeiten:</p>
                             <p class="leading-tight text-justify">
-                                Entwicklung eines MVP Projektes
+                                - Solo Entwicklung einer gesamten MVP Applikation
+                                <br>
+                                - Monolithische Laravel MVC-Applikation auf AWS
                             </p>
                             <p class="font-bold text-left py-2">Technologien:</p>
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
@@ -56,7 +78,7 @@
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SNS</div>
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">AWS S3</div>
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">Docker</div>
-                                <div class="bg-gray-900 rounded text-gray-100 px-2">Sentry</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Cloudformation</div>
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">Github CI\CD</div>
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">Cloudwatch</div>
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
@@ -86,13 +108,14 @@
                             ></div>
                         </div>
                         <div
-                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 md:mr-auto shadow-md"
                         >
                             <a href="https://procuros.io/de">
                                 <h3 class="font-semibold text-lg mb-1 underline">Procuros</h3>
                             </a>
+                            <p class="font-bold text-left py-2">Tätigkeiten:</p>
                             <p class="leading-tight text-justify">
-                                Entwicklung einer EDI Messanger Plattform
+                                - Konzeption & Entwicklung einer EDI Messanger Plattform
                             </p>
                             <p class="font-bold text-left py-2">Technologien:</p>
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
@@ -126,7 +149,7 @@
                             ></div>
                         </div>
                         <div
-                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 md:mr-auto shadow-md"
                         >
                             <a href="https://simplerecruit.de">
                                 <h3 class="font-semibold text-lg mb-1 underline">SimpleRecruit</h3>
@@ -134,6 +157,21 @@
                             <p class="leading-tight text-justify">
                                 Entwicklung einer provisionsbasierten IT-Recruitmentplattform
                             </p>
+                            <p class="font-bold text-left py-2">Technologien:</p>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 8</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Laravel</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Laravel Livewire</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Tailwind CSS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS EC2</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SQS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS SNS</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">AWS S3</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Docker</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Sentry</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">Github CI\CD</div>
+                                <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
+                            </div>
                             <p class="leading-tight text-center pt-2">
                                 ab März 2022
                             </p>
@@ -143,7 +181,7 @@
                     <!-- left -->
                     <div class="flex flex-row-reverse md:contents">
                         <div
-                                class="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+                                class="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 md:ml-auto shadow-md"
                         >
                             <a href="https://www.scayle.com/">
                                 <h3 class="font-semibold text-lg mb-1 underline">AboutYou SCAYLE</h3>
@@ -184,7 +222,7 @@
                     <!-- left -->
                     <div class="flex flex-row-reverse md:contents">
                         <div
-                                class="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
+                                class="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 md:ml-auto shadow-md"
                         >
                             <a href="https://www.aboutyou.de/">
                                 <h3 class="font-semibold text-lg mb-1 underline">AboutYou Retail</h3>
@@ -232,7 +270,7 @@
                             ></div>
                         </div>
                         <div
-                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
+                                class="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 md:mr-auto shadow-md"
                         >
                             <a href="https://www.upaxis.com/">
                                 <h3 class="font-semibold text-lg mb-1 underline">Hq Software Solutions UG</h3>

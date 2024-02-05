@@ -8,7 +8,7 @@
                         <h1 class="text-3xl md:text-5xl text-black font-bold mb-6">Moin,</h1>
                         <p class="">
                             Ich bin <b>Thomas</b>, ein begeisterter <b>Backend-Softwareentwickler</b> aus Hamburg.
-                            Seit 2018 arbeite ich leidenschaftlich an Softwareprojekten im <b> E-Commerce und Logistik </b> Bereich und habe dabei vielfältige Programmiersprachen durch unterschiedliche Projekte gemeister. Insbesondere habe ich mich auf <b>PHP</b>,
+                            Seit 2018 arbeite ich leidenschaftlich an Softwareprojekten im <b> E-Commerce und Logistik </b> Bereich und habe dabei vielfältige Programmiersprachen durch unterschiedliche Projekte gemeistert. Insbesondere habe ich mich auf <b>PHP</b>,
                             <b>Laravel</b>, <b>Symfony</b>, <b>GO</b> und <b>AWS</b> spezialisiert.
                         </p>
                         <div class="hidden md:grid grid-row grid-cols-1 grid-cols-6 gap-4 pt-6">
