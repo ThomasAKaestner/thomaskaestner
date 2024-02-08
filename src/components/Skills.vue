@@ -80,7 +80,7 @@
 
           <div class="flex gap-4">
             <div class="flex-shrink-0 w-1/10">
-              <img class="w-16 m-auto" src="img/icons/AWSLambda.png">
+              <img class="w-16 m-auto" src="img/icons/awslambda.png">
             </div>
 
             <div class="flex-grow w-9/10">
@@ -197,7 +197,7 @@
 
           <div class="flex gap-4">
             <div class="flex-shrink-0 w-1/10">
-              <img class="w-16 m-auto" src="img/icons/Kubernetes.png">
+              <img class="w-16 m-auto" src="img/icons/kubernetes.png">
             </div>
 
             <div class="flex-grow w-9/10">
@@ -220,7 +220,7 @@
 
           <div class="flex gap-4">
             <div class="flex-shrink-0 w-1/10">
-              <img class="w-16 m-auto" src="img/icons/Terraform.png">
+              <img class="w-16 m-auto" src="img/icons/terraform.png">
             </div>
 
             <div class="flex-grow w-9/10">

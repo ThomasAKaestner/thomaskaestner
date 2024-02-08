@@ -18,7 +18,7 @@
                         </div>
                     </div>
                     <div class="border p-4 bg-black">
-                        <h3 class="pb-4 text-xl font-bold">AWS Architectur & Ops</h3>
+                        <h3 class="pb-4 text-xl font-bold">AWS Architektur & DevOps</h3>
                         <div>
                             Als <b>AWS Cloud Architect & AWS Developer</b> bringe ich umfassende Expertise in die Gestaltung
                             und Umsetzung Cloud-basierter Lösungen. Mit fundiertem Wissen über AWS-Technologien

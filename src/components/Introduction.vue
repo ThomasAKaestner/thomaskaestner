@@ -7,8 +7,11 @@
                     <div class="w-full pb-8 sm:pr-8">
                         <h1 class="text-3xl md:text-5xl text-black font-bold mb-6">Moin,</h1>
                         <p class="">
-                            Ich bin <b>Thomas</b>, ein begeisterter <b>Backend-Softwareentwickler</b> aus Hamburg.
-                            Seit 2018 arbeite ich leidenschaftlich an Softwareprojekten im <b> E-Commerce und Logistik </b> Bereich und habe dabei vielfältige Programmiersprachen durch unterschiedliche Projekte gemeistert. Insbesondere habe ich mich auf <b>PHP</b>,
+                            Ich bin <b>Thomas</b>, ein <b>Backend-Softwareentwickler</b> aus Hamburg.
+                            Seit 2018 widme ich mich mit Leidenschaft Softwareprojekten im <b> E-Commerce- und
+                            Logistikbereich </b> und habe dabei durch diverse Projekte umfangreiche Kenntnisse in
+                            verschiedenen Programmiersprachen und der Konzeption von Software erlangt.
+                            Insbesondere habe ich mich auf <b>PHP</b>,
                             <b>Laravel</b>, <b>Symfony</b>, <b>GO</b> und <b>AWS</b> spezialisiert.
                         </p>
                         <div class="hidden md:grid grid-row grid-cols-1 grid-cols-6 gap-4 pt-6">
@@ -37,13 +40,13 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="mailto: thomas.kaestner@protonmail.com">
+                                <a href="https://www.malt.de/profile/thomaskaestner">
                                     <img class="w-8 pb-2 m-auto" src="img/icons/malt.png">
                                     <p class="text-center">Malt</p>
                                 </a>
                             </div>
                             <div>
-                                <a href="mailto: thomas.kaestner@protonmail.com">
+                                <a href="https://www.freelancermap.de/profil/php-entwicker">
                                     <img class="w-8 pb-2 m-auto" src="img/icons/freelancer-map.png">
                                     <p class="text-center">Freelancer Map</p>
                                 </a>
@@ -55,7 +58,8 @@
                     <div class="w-full">
                         <div class="flex justify-center">
                             <div>
-                                <img src="/img/default.jpeg" alt="Your Image" class="rounded-full h-64 w-64 object-cover overflow-hidden">
+                                <img src="/img/default.jpeg" alt="Your Image"
+                                     class="rounded-full h-64 w-64 object-cover overflow-hidden">
                             </div>
                         </div>
                     </div>
