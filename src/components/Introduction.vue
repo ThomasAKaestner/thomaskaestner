@@ -38,13 +38,13 @@
                             </div>
                             <div>
                                 <a href="mailto: thomas.kaestner@protonmail.com">
-                                    <img class="w-8 pb-2 m-auto" src="img/icons/mail.png">
+                                    <img class="w-8 pb-2 m-auto" src="img/icons/malt.png">
                                     <p class="text-center">Malt</p>
                                 </a>
                             </div>
                             <div>
                                 <a href="mailto: thomas.kaestner@protonmail.com">
-                                    <img class="w-8 pb-2 m-auto" src="img/icons/mail.png">
+                                    <img class="w-8 pb-2 m-auto" src="img/icons/freelancer-map.png">
                                     <p class="text-center">Freelancer Map</p>
                                 </a>
                             </div>

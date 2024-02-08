@@ -1,9 +1,6 @@
 <template>
     <div class="bg-black text-gray-200" id="myProjects">
-
-
         <h4 class="text-3xl md:text-5xl text-gray-300 font-bold pt-8 mb-6">Meine Projekte ...</h4>
-
         <div class="flex pb-12 md:mb-0">
             <div class="container m-auto">
                 <div
