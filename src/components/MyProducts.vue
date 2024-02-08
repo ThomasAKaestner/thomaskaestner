@@ -8,9 +8,9 @@
                     <div class="border p-4  bg-black">
                         <h3 class="pb-4 text-xl font-bold">Backend Entwicklung</h3>
                         <div>
-                            Als erfahrener Backend-Entwickler biete ich maßgeschneiderte Lösungen in den Bereichen PHP,
-                            Symfony, Laravel und Golang an, unabhängig von der Architektur, sei es Microservices oder
-                            monolithische Anwendungen. Mit tiefgreifendem Fachwissen entwickle ich zuverlässige und
+                            Als erfahrener Backend-Entwickler biete ich maßgeschneiderte Lösungen in den Bereichen <b>PHP,
+                            Symfony, Laravel und Golang </b>an, unabhängig von der Architektur, sei es <b>Microservices</b> oder
+                            <b> monolithische Anwendungen</b>. Mit tiefgreifendem Fachwissen entwickle ich zuverlässige und
                             effiziente Backend-Systeme, um individuelle Anforderungen zu erfüllen.
                         </div>
                         <div class="border p-4 m-4 cursor-pointer customColor">
@@ -20,8 +20,7 @@
                     <div class="border p-4 bg-black">
                         <h3 class="pb-4 text-xl font-bold">AWS Architectur & Ops</h3>
                         <div>
-
-                            Als AWS Cloud Architect & AWS Developer bringe ich umfassende Expertise in die Gestaltung
+                            Als <b>AWS Cloud Architect & AWS Developer</b> bringe ich umfassende Expertise in die Gestaltung
                             und Umsetzung Cloud-basierter Lösungen. Mit fundiertem Wissen über AWS-Technologien
                             entwickle ich maßgeschneiderte Architekturen, die höchste Performance, Skalierbarkeit und
                             Sicherheit gewährleisten. Vom Design bis zur Implementierung stehe ich für innovative
