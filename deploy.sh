@@ -9,6 +9,9 @@ npm run build
 # navigate into the build output directory
 cd dist
 
+# Add CNAME folder with custom domain in here
+echo "www.thomaskaestner.de" > CNAME
+
 # if you are deploying to a custom domain
 
 git init
