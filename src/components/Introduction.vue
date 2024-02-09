@@ -34,7 +34,7 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="mailto: thomas.kaestner@protonmail.com">
+                                <a href="mailto: thomasalankaestner@gmail.com">
                                     <img class="w-8 pb-2 xs:w-4 m-auto" src="img/icons/mail.png">
                                     <p class="text-center">Email</p>
                                 </a>

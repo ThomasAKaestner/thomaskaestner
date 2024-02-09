@@ -4,7 +4,7 @@
       <h1 class="text-lg font-bold pt-4 pb-2">Impressum:</h1>
       <ul>
         <li>Thomas Kästner</li>
-        <li>Email: thomaskaestner@protonmail.com</li>
+        <li>Email: thomasalankaestner@gmail.com</li>
       </ul>
       <h1 class="text-lg font-bold pt-6 pb-2">Datenschutzerklärung:</h1>
 
@@ -80,7 +80,7 @@
         Wenn Sie eine Berichtigung, Sperrung, Löschung oder Auskunft über die zu Ihrer Person
         gespeicherten personenbezogenen Daten wünschen oder Fragen bzgl. der Erhebung,
         Verarbeitung oder Verwendung Ihrer personenbezogenen Daten haben oder erteilte
-        Einwilligungen widerrufen möchten, wenden Sie sich bitte an folgende E-Mail-Adresse: thomaskaestner@protonmail.com
+        Einwilligungen widerrufen möchten, wenden Sie sich bitte an folgende E-Mail-Adresse: thomasalankaestner@gmail.com
       </p>
     </div>
   </div>
