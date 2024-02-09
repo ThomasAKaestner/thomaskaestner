@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import BlogView from '../views/BlogView.vue'
+import SymfonyServerless from "../views/articles/SymfonyServerless.vue";
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/blog',
     name: 'blog',
     component: BlogView
+  },
+  {
+    path: '/blog/symfony-serverless',
+    name: 'symfony-serverless',
+    component: SymfonyServerless
   }
 ]
 
