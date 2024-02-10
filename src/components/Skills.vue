@@ -80,7 +80,7 @@
 
           <div class="flex gap-4">
             <div class="flex-shrink-0 w-1/10">
-              <img class="w-16 m-auto" src="img/icons/awslambda.png">
+              <img class="w-16 m-auto" src="img/icons/serverless.png">
             </div>
 
             <div class="flex-grow w-9/10">
