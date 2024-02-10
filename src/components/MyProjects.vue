@@ -204,7 +204,7 @@
                 <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
               </div>
               <p class="leading-tight text-center pt-2">
-                ab 2021 Dezember - März 2022
+                ab 2021 Oktober - März 2022
               </p>
             </div>
             <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -245,7 +245,7 @@
                 <div class="bg-gray-900 rounded text-gray-100 px-2">PHPUnit</div>
               </div>
               <p class="leading-tight text-center pt-2">
-                ab 2020 März - 2021 Dezember
+                ab 2020 März - 2021 Oktober
               </p>
             </div>
             <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
