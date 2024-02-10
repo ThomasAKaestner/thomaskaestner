@@ -20,7 +20,7 @@ export default defineComponent({
             <div class="space-y-5 xl:col-span-3">
                 <div class="space-y-6">
                     <h2 class="text-2xl leading-8 font-bold tracking-tight">
-                        <a class="text-gray-900 dark:text-white" href="/blog/symfony-serverless">
+                        <a class="text-gray-900 dark:text-white" :href="url">
                             {{ title }}
                         </a>
                     </h2>
@@ -29,7 +29,7 @@ export default defineComponent({
                     </div>
                 </div>
                 <div class="text-base leading-6 font-medium"><a class="link" aria-label="read more"
-                                                                href="/blog/symfony-serverless">Mehr lesen →</a></div>
+                                                                :href="url">Mehr lesen →</a></div>
             </div>
         </article>
     </li>
@@ -40,7 +40,8 @@ export default {
     props: {
         title: String,
         text: String,
-        date: String
+        date: String,
+        url: String
     }
 }
 </script>

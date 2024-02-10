@@ -16,24 +16,28 @@ export default defineComponent({
 
             <ul class="divide-y divide-gray-400">
                 <ListElement
-                    :title="symfonyServerlessPageTitle"
-                    :text="symfonyServerlessPageText"
-                    :date="symfonyServerlessPageDate"
-                    ></ListElement>
-                <ListElement
-                    :title="laravelServerlessPageTitle"
-                    :text="laravelServerlessPageText"
-                    :date="laravelServerlessPageDate"
+                        :title="symfonyServerlessPageTitle"
+                        :text="symfonyServerlessPageText"
+                        :date="symfonyServerlessPageDate"
+                        :url="symfonyServerlessPageUrl"
                 ></ListElement>
                 <ListElement
-                    :title="perfectPHPPipeLineTitle"
-                    :text="perfectPHPPipeLineText"
-                    :date="perfectPHPPipeLineDate"
+                        :title="laravelServerlessPageTitle"
+                        :text="laravelServerlessPageText"
+                        :date="laravelServerlessPageDate"
+                        :url="laravelServerlessPageUrl"
                 ></ListElement>
                 <ListElement
-                    :title="dockerXdebugTitle"
-                    :text="dockerXdebugTitleText"
-                    :date="dockerXdebugTitleDate"
+                        :title="perfectPHPPipeLineTitle"
+                        :text="perfectPHPPipeLineText"
+                        :date="perfectPHPPipeLineDate"
+                        :url="perfectPHPPipeLineUrl"
+                ></ListElement>
+                <ListElement
+                        :title="dockerXdebugTitle"
+                        :text="dockerXdebugTitleText"
+                        :date="dockerXdebugTitleDate"
+                        :url="dockerXdebugTitleUrl"
                 ></ListElement>
             </ul>
         </div>
@@ -52,18 +56,20 @@ export default {
             symfonyServerlessPageTitle: 'Symfony Serverless',
             symfonyServerlessPageText: 'This is the text content for the Child Component.',
             symfonyServerlessPageDate: '2024-02-10',
+            symfonyServerlessPageUrl: '/blog/symfony-serverless',
             laravelServerlessPageTitle: 'Laravel Serverless',
             laravelServerlessPageText: 'This is the text content for the Child Component.',
             laravelServerlessPageDate: '2024-02-10',
+            laravelServerlessPageUrl: '/blog/laravel-serverless',
             awsCloudFormationTitle: 'Laravel Serverless',
             awsCloudFormationText: 'This is the text content for the Child Component.',
             awsCloudFormationDate: '2024-02-10',
-            perfectPHPPipeLineTitle:'Die perfekte PHP Pipeline',
-            perfectPHPPipeLineText:'This is the text content for the Child Component.',
-            perfectPHPPipeLineDate:'2023-08-02',
-            dockerXdebugTitle:'Xdebug in seperatem Docker Container laufen lassen',
-            dockerXdebugTitleText:'This is the text content for the Child Component.',
-            dockerXdebugTitleDate:'2022-05-23',
+            perfectPHPPipeLineTitle: 'Die perfekte CI/CD Pipeline für PHP',
+            perfectPHPPipeLineText: 'This is the text content for the Child Component.',
+            perfectPHPPipeLineDate: '2023-08-02',
+            dockerXdebugTitle: 'Xdebug in seperatem Docker Container laufen lassen',
+            dockerXdebugTitleText: 'This is the text content for the Child Component.',
+            dockerXdebugTitleDate: '2022-05-23',
         };
     }
 }
