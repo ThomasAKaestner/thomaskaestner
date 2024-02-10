@@ -29,7 +29,7 @@ export default defineComponent({
                     </div>
                 </div>
                 <div class="text-base leading-6 font-medium"><a class="link" aria-label="read more"
-                                                                href="/blog/symfony-serverless">Read more →</a></div>
+                                                                href="/blog/symfony-serverless">Mehr lesen →</a></div>
             </div>
         </article>
     </li>

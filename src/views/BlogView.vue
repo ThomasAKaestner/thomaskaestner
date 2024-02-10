@@ -14,7 +14,7 @@ export default defineComponent({
             <h1 class="text-4xl font-bold">Tech Blog</h1>
             <p>Updates, tips & opinions about PHP, Symfony, Laravel, AWS, Kubernetes, Terraform, Docker.</p>
 
-            <ul class="divide-y divide-gray-200 dark:divide-slate-200/5">
+            <ul class="divide-y divide-gray-400">
                 <ListElement
                     :title="symfonyServerlessPageTitle"
                     :text="symfonyServerlessPageText"
