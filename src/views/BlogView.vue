@@ -12,7 +12,7 @@ export default defineComponent({
     <div class="bg-black">
         <div class="text-white text-left max-w-3xl mx-auto py-12 px-4 sm:px-6 xl:max-w-5xl xl:px-0">
             <h1 class="text-4xl font-bold">Tech Blog</h1>
-            <p>Updates, tips & opinions about PHP, Symfony, Laravel, AWS, Kubernetes, Terraform, Docker.</p>
+            <p>Updates, Tips & Meinungen über PHP, Symfony, Laravel, Golang, AWS, Kubernetes, Terraform und Docker.</p>
 
             <ul class="divide-y divide-gray-400">
                 <ListElement
@@ -24,6 +24,16 @@ export default defineComponent({
                     :title="laravelServerlessPageTitle"
                     :text="laravelServerlessPageText"
                     :date="laravelServerlessPageDate"
+                ></ListElement>
+                <ListElement
+                    :title="perfectPHPPipeLineTitle"
+                    :text="perfectPHPPipeLineText"
+                    :date="perfectPHPPipeLineDate"
+                ></ListElement>
+                <ListElement
+                    :title="dockerXdebugTitle"
+                    :text="dockerXdebugTitleText"
+                    :date="dockerXdebugTitleDate"
                 ></ListElement>
             </ul>
         </div>
@@ -47,7 +57,13 @@ export default {
             laravelServerlessPageDate: '2024-02-10',
             awsCloudFormationTitle: 'Laravel Serverless',
             awsCloudFormationText: 'This is the text content for the Child Component.',
-            awsCloudFormationDate: '2024-02-10'
+            awsCloudFormationDate: '2024-02-10',
+            perfectPHPPipeLineTitle:'Die perfekte PHP Pipeline',
+            perfectPHPPipeLineText:'This is the text content for the Child Component.',
+            perfectPHPPipeLineDate:'2023-08-02',
+            dockerXdebugTitle:'Xdebug in seperatem Docker Container laufen lassen',
+            dockerXdebugTitleText:'This is the text content for the Child Component.',
+            dockerXdebugTitleDate:'2022-05-23',
         };
     }
 }
