@@ -13,7 +13,6 @@ export default defineComponent({
         <div class="text-white text-left max-w-3xl mx-auto py-12 px-4 sm:px-6 xl:max-w-5xl xl:px-0">
             <h1 class="text-4xl font-bold">Tech Blog</h1>
             <p>Updates, Tips & Meinungen über PHP, Symfony, Laravel, Golang, AWS, Kubernetes, Terraform und Docker.</p>
-
             <ul class="divide-y divide-gray-400">
                 <ListElement
                         :title="symfonyServerlessPageTitle"
