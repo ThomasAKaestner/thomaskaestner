@@ -60,7 +60,7 @@ export default {
         return {
             AWSCloudFormationPageTitle: 'AWS Cloudformation',
             AWSCloudFormationPageText: 'This is the text content for the Child Component.',
-            AWSCloudFormationPageDate: '2023-11-09',
+            AWSCloudFormationPageDate: '2023-10-08',
             AWSCloudFormationPageUrl: '/blog/aws-cloud-formation',
 
             symfonyServerlessPageTitle: 'Symfony Serverless',
@@ -81,12 +81,10 @@ export default {
             perfectPHPPipeLineDate: '2023-08-02',
             perfectPHPPipeLineUrl: '/blog/die-perfekte-CI-CD-Pipeline-fuer-php',
 
-
             dockerXdebugTitle: 'Xdebug in separaten Docker Container laufen lassen',
             dockerXdebugTitleText: ' Xdebug wird in einem separaten Docker-Container betrieben, um Konflikte zu vermeiden und die Einbindung in PHP-Projekte zu erleichtern. Eine Anleitung zur Konfiguration des Containers und zur Verbindung mit der Entwicklungsumgebung ermöglicht effizientes Debugging.',
             dockerXdebugTitleDate: '2022-05-23',
             dockerXdebugUrl: '/blog/xdebug-in-separaten-docker-container-laufen-lassen',
-
         };
     }
 }
