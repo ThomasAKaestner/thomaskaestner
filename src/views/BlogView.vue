@@ -81,10 +81,11 @@ export default {
             perfectPHPPipeLineDate: '2023-08-02',
             perfectPHPPipeLineUrl: '/blog/die-perfekte-CI-CD-Pipeline-fuer-php',
 
-            dockerXdebugTitle: 'Xdebug in separaten Docker Container laufen lassen',
-            dockerXdebugTitleText: ' Xdebug wird in einem separaten Docker-Container betrieben, um Konflikte zu vermeiden und die Einbindung in PHP-Projekte zu erleichtern. Eine Anleitung zur Konfiguration des Containers und zur Verbindung mit der Entwicklungsumgebung ermöglicht effizientes Debugging.',
+            dockerXdebugTitle: 'Xdebug in Docker Container laufen lassen',
+            dockerXdebugTitleText: '\n' +
+                'Xdebug ist ein leistungsstolles Werkzeug zur Fehlerbehebung und Profilerstellung in PHP-Anwendungen. Die Integration mit Docker-Containern ermöglicht eine effiziente Entwicklungsumgebung. Durch einfache Schritte kann Xdebug in Docker-Containern eingerichtet werden, um das Debuggen von PHP-Anwendungen zu erleichtern.',
             dockerXdebugTitleDate: '2022-05-23',
-            dockerXdebugUrl: '/blog/xdebug-in-separaten-docker-container-laufen-lassen',
+            dockerXdebugUrl: '/blog/xdebug-in-docker-container-laufen-lassen',
         };
     }
 }

@@ -44,7 +44,7 @@ const routes = [
         component: PerfectCICDforPHP
     },
     {
-        path: '/blog/xdebug-in-separaten-docker-container-laufen-lassen',
+        path: '/blog/xdebug-in-docker-container-laufen-lassen',
         name: 'xdebug-in-docker-container',
         component: XdebugInDockerContainer
     }

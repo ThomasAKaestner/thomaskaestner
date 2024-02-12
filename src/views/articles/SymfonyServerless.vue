@@ -4,9 +4,6 @@
 
 <template>
     <div id="symfonyserverless">
-
-
-
         <div class="bg-black">
             <div class="text-white text-left max-w-3xl mx-auto py-12 md:py-24 px-4 sm:px-6 xl:max-w-5xl xl:px-0">
                 <div class="text-base leading-6 font-medium text-gray-500 dark:text-gray-300">
