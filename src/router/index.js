@@ -6,6 +6,7 @@ import SymfonyServerless from "../views/articles/SymfonyServerless.vue";
 import PerfectCICDforPHP from "@/views/articles/PerfectCICDforPHP.vue";
 import LaravelServerless from "@/views/articles/LaravelServerless.vue";
 import XdebugInDockerContainer from "@/views/articles/XdebugInDockerContainer.vue";
+import PHPServerlessMitBref from "../views/articles/PHPServerlessMitBref.vue";
 
 Vue.use(VueRouter)
 
@@ -47,6 +48,11 @@ const routes = [
         path: '/blog/xdebug-in-separaten-docker-container-laufen-lassen',
         name: 'xdebug-in-docker-container',
         component: XdebugInDockerContainer
+    },
+    {
+        path: '/blog/php-serverless-mit-bref',
+        name: 'php-serverless-mit-bref',
+        component: PHPServerlessMitBref
     }
 ]
 
