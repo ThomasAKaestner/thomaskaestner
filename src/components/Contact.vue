@@ -23,7 +23,7 @@
             </a>
           </div>
           <div>
-            <a href = "mailto: thomasalankaestner@gmail.com">
+            <a href = "mailto: freelancing.thomasalankaestner@gmail.com">
               <img class="w-16 pb-2 m-auto" src="img/icons/mail.png">
               <p class="text-center">Email</p>
             </a>
