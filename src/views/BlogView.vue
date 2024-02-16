@@ -33,6 +33,12 @@ export default defineComponent({
                         :url="laravelServerlessPageUrl"
                 ></ListElement>
                 <ListElement
+                    :title="phpServerlessPageTitle"
+                    :text="phpServerlessPageText"
+                    :date="phpServerlessPageDate"
+                    :url="phpServerlessPageUrl"
+                ></ListElement>
+                <ListElement
                         :title="perfectPHPPipeLineTitle"
                         :text="perfectPHPPipeLineText"
                         :date="perfectPHPPipeLineDate"
@@ -74,6 +80,11 @@ export default {
                 'Laravel Serverless läuft ausschließlich auf AWS Lambda unter Verwendung des bref-Frameworks. Diese Kombination ermöglicht es, Laravel-Anwendungen in einer serverlosen Umgebung zu betreiben, indem sie nahtlos in die Architektur von AWS Lambda integriert werden.',
             laravelServerlessPageDate: '2023-09-11',
             laravelServerlessPageUrl: '/blog/laravel-serverless',
+
+            phpServerlessPageTitle: 'PHP Serverless mit Bref',
+            phpServerlessPageText: 'Das Projekt PHP Serverless mit Bref bietet eine innovative Lösung für das Bereitstellen von PHP-Anwendungen in serverlosen Umgebungen. Durch die Nutzung von Bref können Entwickler PHP-Anwendungen nahtlos auf Serverless-Plattformen wie AWS Lambda ausführen. Diese effiziente und skalierbare Infrastruktur ermöglicht es Entwicklern, sich auf die Entwicklung hochwertiger PHP-Anwendungen zu konzentrieren, ohne sich um die Verwaltung von Servern kümmern zu müssen',
+            phpServerlessPageDate: '2023-09-11',
+            phpServerlessPageUrl: '/blog/php-serverless-mit-bref',
 
             perfectPHPPipeLineTitle: 'Die perfekte CI/CD Pipeline für PHP',
             perfectPHPPipeLineText: '\n' +
