@@ -89,13 +89,13 @@ export default {
             perfectPHPPipeLineTitle: 'Die perfekte CI/CD Pipeline für PHP',
             perfectPHPPipeLineText: '\n' +
                 'Die perfekte CI/CD Pipeline für PHP umfasst automatisierte Tests, Code-Qualitätsprüfungen, Containerisierung und automatische Bereitstellung. Durch diese Methoden können Entwickler Arbeitsabläufe verbessern und die Zuverlässigkeit ihrer Anwendungen steigern.',
-            perfectPHPPipeLineDate: '2023-08-02',
+            perfectPHPPipeLineDate: '2022-08-02',
             perfectPHPPipeLineUrl: '/blog/die-perfekte-CI-CD-Pipeline-fuer-php',
 
             dockerXdebugTitle: 'Xdebug in Docker Container laufen lassen',
             dockerXdebugTitleText: '\n' +
                 'Xdebug ist ein leistungsstolles Werkzeug zur Fehlerbehebung und Profilerstellung in PHP-Anwendungen. Die Integration mit Docker-Containern ermöglicht eine effiziente Entwicklungsumgebung. Durch einfache Schritte kann Xdebug in Docker-Containern eingerichtet werden, um das Debuggen von PHP-Anwendungen zu erleichtern.',
-            dockerXdebugTitleDate: '2022-05-23',
+            dockerXdebugTitleDate: '2021-05-23',
             dockerXdebugUrl: '/blog/xdebug-in-docker-container-laufen-lassen',
         };
     }
