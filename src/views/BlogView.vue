@@ -15,10 +15,10 @@ export default defineComponent({
             <p>Updates, Tips & Meinungen über PHP, Symfony, Laravel, Golang, AWS, Kubernetes, Terraform und Docker.</p>
             <ul class="divide-y divide-gray-400">
                 <ListElement
-                    :title="AWSCloudFormationPageTitle"
-                    :text="AWSCloudFormationPageText"
-                    :date="AWSCloudFormationPageDate"
-                    :url="AWSCloudFormationPageUrl"
+                        :title="AWSCloudFormationPageTitle"
+                        :text="AWSCloudFormationPageText"
+                        :date="AWSCloudFormationPageDate"
+                        :url="AWSCloudFormationPageUrl"
                 ></ListElement>
                 <ListElement
                         :title="symfonyServerlessPageTitle"
@@ -26,11 +26,6 @@ export default defineComponent({
                         :date="symfonyServerlessPageDate"
                         :url="symfonyServerlessPageUrl"
                 ></ListElement>
-              <ListElement
-                    :title="aufrufModelleAwsTitle"
-                    :text="aufrufModelleAwsText"
-                    :date="aufrufModelleAwsDate"
-                    :url="aufrufModelleAwsUrl"></ListElement>
                 <ListElement
                         :title="laravelServerlessPageTitle"
                         :text="laravelServerlessPageText"
@@ -38,11 +33,28 @@ export default defineComponent({
                         :url="laravelServerlessPageUrl"
                 ></ListElement>
                 <ListElement
-                    :title="phpServerlessPageTitle"
-                    :text="phpServerlessPageText"
-                    :date="phpServerlessPageDate"
-                    :url="phpServerlessPageUrl"
+                        :title="phpServerlessPageTitle"
+                        :text="phpServerlessPageText"
+                        :date="phpServerlessPageDate"
+                        :url="phpServerlessPageUrl"
                 ></ListElement>
+                <ListElement
+                    :title="lebensZyklusVonLambdaFunktionenTitle"
+                    :text="lebensZyklusVonLambdaFunktionenText"
+                    :date="lebensZyklusVonLambdaFunktionenDate"
+                    :url="lebensZyklusVonLambdaFunktionenUrl"
+                ></ListElement>
+                <ListElement
+                    :title="aufrufModelleAwsTitle"
+                    :text="aufrufModelleAwsText"
+                    :date="aufrufModelleAwsDate"
+                    :url="aufrufModelleAwsUrl"></ListElement>
+                <ListElement
+                    :title="AWSLambdaBerechtigungTitle"
+                    :text="AWSLambdaBerechtigungText"
+                    :date="AWSLambdaBerechtigungDate"
+                    :url="AWSLambdaBerechtigungUrl">
+                </ListElement>
                 <ListElement
                         :title="perfectPHPPipeLineTitle"
                         :text="perfectPHPPipeLineText"
@@ -73,6 +85,16 @@ export default {
             AWSCloudFormationPageText: 'This is the text content for the Child Component.',
             AWSCloudFormationPageDate: '2023-10-08',
             AWSCloudFormationPageUrl: '/blog/aws-cloud-formation',
+
+            AWSLambdaBerechtigungTitle: 'AWS Lambda Berechtigungen',
+            AWSLambdaBerechtigungText: 'AWS Lambda Berechtigungen ermöglichen sichere und effiziente Funktionsausführung in der AWS-Cloud. Hauptberechtigungen umfassen die IAM-Ausführungsrolle, die Funktionen den Zugriff auf Ressourcen ermöglicht, und die IAM-Ressourcenrichtlinie, die den Zugriff auf die Funktion steuert. Die IAM-Ausführungsrolle gewährt Funktionen Zugriff auf AWS-Services, während die IAM-Ressourcenrichtlinie den Zugriff auf die Funktion steuert. Eine korrekte Konfiguration und Verwaltung dieser Berechtigungen ist für die Sicherheit und Effektivität von AWS Lambda entscheidend.',
+            AWSLambdaBerechtigungDate: '2023-10-08',
+            AWSLambdaBerechtigungUrl: '/blog/aws-lambda-berechtigungen',
+
+            lebensZyklusVonLambdaFunktionenTitle: 'Lebens Zyklus von Lambda Funktionen',
+            lebensZyklusVonLambdaFunktionenText: 'Der Lebenszyklus von Lambda-Funktionen umfasst die verschiedenen Phasen, die eine Serverless-Funktion durchläuft, von ihrer Erstellung bis zur Ausführung und schließlich zur Beendigung. Diese Zyklusphasen, wie Initialisierung, Ausführung und Aufräumarbeiten, sind entscheidend für das Verständnis und die Optimierung von Lambda-Funktionen in Cloud-basierten Anwendungen. Ein gründliches Verständnis dieses Zyklus ermöglicht Entwicklern, ihre Funktionen effizient zu gestalten und die Leistung sowie die Kosten in der Cloud-Umgebung zu optimieren.',
+            lebensZyklusVonLambdaFunktionenDate: '2023-10-08',
+            lebensZyklusVonLambdaFunktionenUrl: '/blog/lebens-zyklus-von-lambda-funktionen',
 
             aufrufModelleAwsTitle: 'Aufrufmodelle von AWS Lambda Funktionen',
             aufrufModelleAwsText: 'Die Aufrufmodelle für AWS Lambda-Funktionen bieten verschiedene Muster für die Interaktion mit Lambda. Diese Modelle, synchron und asynchron, erfüllen spezifische Anwendungs- und Entwickleranforderungen. Die Auswahl des richtigen Modells ist entscheidend für die Effizienz und Leistung der Serverless-Anwendungen.',

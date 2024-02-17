@@ -8,6 +8,8 @@ import LaravelServerless from "@/views/articles/LaravelServerless.vue";
 import XdebugInDockerContainer from "@/views/articles/XdebugInDockerContainer.vue";
 import PHPServerlessMitBref from "../views/articles/PHPServerlessMitBref.vue";
 import AufrufVonAWSModelle from "../views/articles/AufrufVonAWSModelle.vue";
+import LebenszyklusLambdaFunktionen from "../views/articles/LebenszyklusLambdaFunktionen.vue";
+import AWSLambdaBerechtigungen from "../views/articles/AWSLambdaBerechtigungen.vue";
 
 Vue.use(VueRouter)
 
@@ -59,6 +61,16 @@ const routes = [
         path: '/blog/aufrufmodelle-von-aws-lambda-funktionen',
         name: 'aws-modelle',
         component: AufrufVonAWSModelle
+    },
+    {
+        path: '/blog/lebens-zyklus-von-lambda-funktionen',
+        name: 'lebenszyklus-lambda-funktionen',
+        component: LebenszyklusLambdaFunktionen
+    },
+    {
+        path: '/blog/aws-lambda-berechtigungen',
+        name: 'aws-lambda-berechtigungen',
+        component: AWSLambdaBerechtigungen
     }
 ]
 
