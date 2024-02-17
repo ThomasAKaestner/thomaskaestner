@@ -26,6 +26,11 @@ export default defineComponent({
                         :date="symfonyServerlessPageDate"
                         :url="symfonyServerlessPageUrl"
                 ></ListElement>
+              <ListElement
+                    :title="aufrufModelleAwsTitle"
+                    :text="aufrufModelleAwsText"
+                    :date="aufrufModelleAwsDate"
+                    :url="aufrufModelleAwsUrl"></ListElement>
                 <ListElement
                         :title="laravelServerlessPageTitle"
                         :text="laravelServerlessPageText"
@@ -68,6 +73,11 @@ export default {
             AWSCloudFormationPageText: 'This is the text content for the Child Component.',
             AWSCloudFormationPageDate: '2023-10-08',
             AWSCloudFormationPageUrl: '/blog/aws-cloud-formation',
+
+            aufrufModelleAwsTitle: 'Aufrufmodelle von AWS Lambda Funktionen',
+            aufrufModelleAwsText: 'Die Aufrufmodelle für AWS Lambda-Funktionen bieten verschiedene Muster für die Interaktion mit Lambda. Diese Modelle, synchron und asynchron, erfüllen spezifische Anwendungs- und Entwickleranforderungen. Die Auswahl des richtigen Modells ist entscheidend für die Effizienz und Leistung der Serverless-Anwendungen.',
+            aufrufModelleAwsDate: '2023-10-08',
+            aufrufModelleAwsUrl: '/blog/aufrufmodelle-von-aws-lambda-funktionen',
 
             symfonyServerlessPageTitle: 'Symfony Serverless',
             symfonyServerlessPageText: '\n' +
