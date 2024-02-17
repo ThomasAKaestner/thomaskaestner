@@ -33,6 +33,15 @@
             können Sie eine Lambda-Funktion synchron ausführen, um eine Datei in Amazon S3 zu speichern und dann das
             Ergebnis an Amazon SNS zu senden.
           </p>
+          <p> Folgende Services unterstützen den Aufruf von AWS Lambda Synchron:</p>
+          <ul class="list-disc mx-8">
+            <li>Amazon Api Gateway</li>
+            <li>Amazon Cognito</li>
+            <li>AWS Cloudformation</li>
+            <li>Amazon Alexa</li>
+            <li>Amazon Lex</li>
+            <li>Amazon Cloudfront</li>
+          </ul>
         </div>
         <div class="my-4">
           <h3 class="text-2xl font-bold">2. Asynchroner Aufruf</h3>
@@ -68,6 +77,17 @@
         </div>
         <div class="my-4">
           <h2 class="text-3xl font-bold">Aufrufmodelle einrichten</h2>
+        </div>
+        <div class="my-2">
+          <p>
+            Sie können die Aufrufmodelle für Ihre Lambda-Funktionen in der AWS Management Console, der AWS CLI oder
+            der AWS SDK einrichten. In der AWS Management Console können Sie die Aufrufmodelle für Ihre Lambda-Funktion
+            in der Konfigurationseinstellung "Aufrufmodell" einrichten. In der AWS CLI können Sie die Aufrufmodelle
+            für Ihre Lambda-Funktion mit dem Befehl "aws lambda update-function-configuration" einrichten. In der AWS
+            SDK können Sie die Aufrufmodelle für Ihre Lambda-Funktion mit der Methode "updateFunctionConfiguration"
+            einrichten.
+          </p>
+
         </div>
 
       </div>
