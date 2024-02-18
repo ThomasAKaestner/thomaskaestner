@@ -15,10 +15,12 @@
                     <img class="w-32" src="img/certifications/awscd.png">
                     <p class="font-bold py-2">AWS Cloud Developer</p>
                 </div>
+                <!--
                 <div class="flex flex-col items-center">
                     <img class="w-32" src="img/certifications/awssa.png">
                     <p class="font-bold py-2">AWS Solutions Architect</p>
                 </div>
+                -->
                 <div class="flex flex-col items-center">
                     <img class="w-32" src="img/certifications/terraform.png">
                     <p class="font-bold py-2">Terraform IAC</p>
