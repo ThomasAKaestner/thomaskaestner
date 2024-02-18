@@ -58,7 +58,7 @@
                     <div class="w-full">
                         <div class="flex justify-center">
                             <div>
-                                <img src="/img/default.jpeg" alt="Your Image"
+                                <img src="/img/default.jpg" alt="Your Image"
                                      class="rounded-full h-64 w-64 object-cover overflow-hidden">
                             </div>
                         </div>
