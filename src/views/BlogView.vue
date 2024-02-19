@@ -107,7 +107,7 @@ export default {
             symfonyServerlessPageDate: '2023-09-11',
             symfonyServerlessPageUrl: '/blog/symfony-serverless',
 
-            laravelServerlessPageTitle: 'Laravel Serverless',
+            laravelServerlessPageTitle: 'Laravel Serverless mit AWS ECR',
             laravelServerlessPageText: '\n' +
                 'Laravel Serverless läuft ausschließlich auf AWS Lambda unter Verwendung des bref-Frameworks. Diese Kombination ermöglicht es, Laravel-Anwendungen in einer serverlosen Umgebung zu betreiben, indem sie nahtlos in die Architektur von AWS Lambda integriert werden.',
             laravelServerlessPageDate: '2023-09-11',

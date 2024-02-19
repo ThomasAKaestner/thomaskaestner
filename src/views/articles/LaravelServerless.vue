@@ -9,7 +9,7 @@
                 <div class="text-base leading-6 font-medium text-gray-500 dark:text-gray-300">
                     <time datetime="2023-12-28T12:00:00.000Z">2023-09-11</time>
                 </div>
-                <h1 class="text-4xl font-bold">Laravel Serverless</h1>
+                <h1 class="text-4xl font-bold">Laravel Serverless mit AWS ECR</h1>
                 <div class="flex items-center py-8">
                     <div class="flex-grow border-b border-gray-300"></div>
                 </div>
