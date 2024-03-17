@@ -49,6 +49,12 @@ export default defineComponent({
                     :text="aufrufModelleAwsText"
                     :date="aufrufModelleAwsDate"
                     :url="aufrufModelleAwsUrl"></ListElement>
+              <ListElement
+                  :title="statusUpdatesModelleAnLambdaTitle"
+                  :text="statusUpdatesModelleAnLambdaText"
+                  :date="statusUpdatesModelleAnLambdaDate"
+                  :url="statusUpdatesModelleAnLambdaUrl">
+              </ListElement>
                 <ListElement
                     :title="AWSLambdaBerechtigungTitle"
                     :text="AWSLambdaBerechtigungText"
@@ -100,6 +106,12 @@ export default {
             aufrufModelleAwsText: 'Die Aufrufmodelle für AWS Lambda-Funktionen bieten verschiedene Muster für die Interaktion mit Lambda. Diese Modelle, synchron und asynchron, erfüllen spezifische Anwendungs- und Entwickleranforderungen. Die Auswahl des richtigen Modells ist entscheidend für die Effizienz und Leistung der Serverless-Anwendungen.',
             aufrufModelleAwsDate: '2023-10-08',
             aufrufModelleAwsUrl: '/blog/aufrufmodelle-von-aws-lambda-funktionen',
+
+
+          statusUpdatesModelleAnLambdaTitle: 'Status Updates an Lambda senden',
+          statusUpdatesModelleAnLambdaText: 'In diesem Artikel erfahren Sie, wie sie status updates an AWS Lambda funktionen senden.',
+          statusUpdatesModelleAnLambdaDate: '2023-10-08',
+          statusUpdatesModelleAnLambdaUrl: '/blog/Statusupdates-Modelle-An-AWS-Lambda',
 
             symfonyServerlessPageTitle: 'Symfony Serverless',
             symfonyServerlessPageText: '\n' +

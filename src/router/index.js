@@ -10,6 +10,7 @@ import PHPServerlessMitBref from "../views/articles/PHPServerlessMitBref.vue";
 import AufrufVonAWSModelle from "../views/articles/AufrufVonAWSModelle.vue";
 import LebenszyklusLambdaFunktionen from "../views/articles/LebenszyklusLambdaFunktionen.vue";
 import AWSLambdaBerechtigungen from "../views/articles/AWSLambdaBerechtigungen.vue";
+import StatusUpdatesModelleAnLambda from "@/views/articles/StatusUpdatesModelleAnLambda.vue";
 
 Vue.use(VueRouter)
 
@@ -61,6 +62,11 @@ const routes = [
         path: '/blog/aufrufmodelle-von-aws-lambda-funktionen',
         name: 'aws-modelle',
         component: AufrufVonAWSModelle
+    },
+    {
+        path: '/blog/Statusupdates-Modelle-An-AWS-Lambda',
+        name: 'statusupdates-modelle-an-aws-lambda',
+        component: StatusUpdatesModelleAnLambda
     },
     {
         path: '/blog/lebens-zyklus-von-lambda-funktionen',
