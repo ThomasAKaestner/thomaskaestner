@@ -14,7 +14,7 @@
           </div>
           <div>
             <div class="my-4">
-              <h2 class="text-3xl font-bold">1. Client Polling</h2>
+              <h2 class="text-3xl font-bold my-2">1. Client Polling</h2>
               <div class="my-2">
                 <h5 class="text-2xl font-bold">Was ist Client Polling?</h5>
                 <p>
