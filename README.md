@@ -24,3 +24,8 @@ npm run lint
 ```
 npm run deploy
 ```
+
+### NPM version -->
+
+### Node version -> 14
+
