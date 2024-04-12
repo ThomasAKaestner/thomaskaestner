@@ -23,7 +23,7 @@
                         <h3 class="font-semibold text-lg mb-1 underline">Gartenhaus GmbH/ Ydeon group - Freelance</h3>
                       </a>
                       <p class="leading-tight text-justify">
-                        - Konzeption & Entwicklung von Datahubs mit einer Serverless Architektur basierend auf Symfony, AWS &
+                        - Konzeption & Entwicklung von Datahubs mit einer Serverless Architektur basierend auf Symfony, Serverless, AWS &
                         Terraform
                         <br>
                         - Implementierung eines neuen shops in shopware 6
@@ -64,6 +64,8 @@
                                 - Solo Entwicklung einer gesamten MVP Applikation
                                 <br>
                                 - Monolithische Laravel MVC-Applikation auf AWS
+                                <br>
+                                - Umsetzung mit dem TALL Stack (Tailwind CSS, Alpine.js, Laravel Livewire, Laravel)
                             </p>
                             <p class="font-bold text-left py-2">Technologien:</p>
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
@@ -274,7 +276,11 @@
                                 <h3 class="font-semibold text-lg mb-1 underline">Hq Software Solutions UG</h3>
                             </a>
                             <p class="leading-tight text-justify">
-                                Entwicklung einer cloudbasierten Performancemarketingplattform
+                                - Entwicklung einer cloudbasierten Performance Marketing Plattform
+                              <br>
+                                - Umsetzung mit dem LAMP Stack
+                              <br>
+                                - Implementierung von AWS Redshift
                             </p>
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm py-2">
                                 <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 7.2</div>

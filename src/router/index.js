@@ -11,6 +11,8 @@ import AufrufVonAWSModelle from "../views/articles/AufrufVonAWSModelle.vue";
 import LebenszyklusLambdaFunktionen from "../views/articles/LebenszyklusLambdaFunktionen.vue";
 import AWSLambdaBerechtigungen from "../views/articles/AWSLambdaBerechtigungen.vue";
 import StatusUpdatesModelleAnLambda from "@/views/articles/StatusUpdatesModelleAnLambda.vue";
+import Shopware6Experte from "@/views/jobs/Shopware6Experte.vue";
+import PageNotFound from "@/views/PageNotFound.vue";
 
 Vue.use(VueRouter)
 
@@ -77,7 +79,15 @@ const routes = [
         path: '/blog/aws-lambda-berechtigungen',
         name: 'aws-lambda-berechtigungen',
         component: AWSLambdaBerechtigungen
-    }
+    },
+    {
+        path: '/shopware-6',
+        name: 'shopware-6',
+        component: Shopware6Experte
+    },
+    { path: "*",
+        component: PageNotFound }
+
 ]
 
 const router = new VueRouter({

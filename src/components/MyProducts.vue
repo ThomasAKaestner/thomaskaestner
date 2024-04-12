@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="border p-4 bg-black">
-                        <h3 class="pb-4 text-xl font-bold">System Anbindung & Automatisierung</h3>
+                        <h3 class="pb-4 text-xl font-bold">Shopware 6 Entwicklung & Beratung</h3>
                         <div>
 
                             Als erfahrener Entwickler biete ich die nahtlose Anbindung deines Shop-Systems an
@@ -44,7 +44,7 @@
                             effizienter, sondern auch erfolgreicher agieren kann.
                         </div>
                         <div class="border p-4 m-4 cursor-pointer">
-                            <a href="#contact">Kontakt</a>
+                            <a href="#">mehr erfahren</a>
                         </div>
                     </div>
                 </div>
