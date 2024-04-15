@@ -46,3 +46,7 @@
 .customThirdColorFadeBlackGray {
     background: linear-gradient(to bottom, black, #D1D5DB);
 }
+
+.shopwareBgColor {
+    background:#189eff;
+}
