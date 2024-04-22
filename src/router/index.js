@@ -13,6 +13,7 @@ import AWSLambdaBerechtigungen from "../views/articles/AWSLambdaBerechtigungen.v
 import StatusUpdatesModelleAnLambda from "@/views/articles/StatusUpdatesModelleAnLambda.vue";
 import Shopware6Experte from "@/views/jobs/Shopware6Experte.vue";
 import PageNotFound from "@/views/PageNotFound.vue";
+import EC2StorageOptions from "@/views/articles/EC2StorageOptions.vue";
 
 Vue.use(VueRouter)
 
@@ -79,6 +80,11 @@ const routes = [
         path: '/blog/aws-lambda-berechtigungen',
         name: 'aws-lambda-berechtigungen',
         component: AWSLambdaBerechtigungen
+    },
+    {
+        path: '/blog/aws-ec2-speicher-optionen',
+        name: 'aws-ec2-speicher-optionen',
+        component: EC2StorageOptions
     },
     {
         path: '/shopware-6',
