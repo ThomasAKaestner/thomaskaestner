@@ -81,12 +81,41 @@
 
         <!-- Vorteile EBS-backed AMI -->
         <h5 class="text-xl font-bold text-white mt-4">Vorteile von Amazon EBS-Backed AMIs</h5>
+        <p>
+          <b>Zuverlässigkeit:</b> EBS-Volumes sind zuverlässiger als Instance Store-Volumes, da sie redundant über
+          mehrere Availability Zones verteilt sind und mit dauerhaftem EBS-Volumes gespeichert werden.
+        </p>
+        <p>
+          <b>Skalierbarkeit:</b> EBS-Volumnes können bis auf 16 TB skaliert werden, was bedeutet, dass man EBS-Backed
+          AMIs für große Instanzen mit hohem Speicherbedarf verwendet werden können.
+        </p>
+        <p>
+          <b>Persistent:</b> EBS-Volumes sind persistent, was bedeutet, dass die Daten auch nach dem Stoppen oder
+          Beenden der Instanz erhalten bleiben.
+        </p>
 
         <!-- Nachteile EBS-backed AMI -->
-        <h5 class="text-xl font-bold text-white mt-4">Vorteile von Amazon EBS-Backed AMIs</h5>
+        <h5 class="text-xl font-bold text-white mt-4">Nachteile von Amazon EBS-Backed AMIs</h5>
+        <p>
+          <b>Kosten:</b> EBS-Volumes sind in der Regel teurer als Instance Store-Volumes, da sie separate Ressourcen in
+          Anspruch nehmen.
+        </p>
+        <p>
+          <b>Leistung:</b> EBS-Volumes können die Leistung der Instanz beeinträchtigen, insbesondere bei I/O-intensiven
+          Anwendungen.
+        </p>
+        <p>
+          <b>Komplexität: </b> EBS-Backed AMIs sind komplexer zu verwalten als Instance Store-Backed AMIs, da sie mehr
+          EBS-Volumes und Snapshots enthalten.
+        </p>
 
         <!-- Wann sollte ich EBS-volumes verwenden -->
         <h5 class="text-xl font-bold text-white mt-4">Wann sollte EBS-volume verwendet werden? </h5>
+        <p>
+          <b>Produktionsumgebungen:</b> EBS-Backed AMIs sind ideal für Produktionsumgebungen, in denen Zuverlässigkeit
+          und
+          Persistenz erforderlich sind.
+        </p>
 
         <!-- Legende -->
         <h5 class="text-xl font-bold text-white mt-4">Legende</h5>
