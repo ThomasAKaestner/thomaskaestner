@@ -82,6 +82,11 @@
         <!-- Vorteile EBS-backed AMI -->
         <h5 class="text-xl font-bold text-white mt-4">Vorteile von Amazon EBS-Backed AMIs</h5>
 
+        <!-- Nachteile EBS-backed AMI -->
+        <h5 class="text-xl font-bold text-white mt-4">Vorteile von Amazon EBS-Backed AMIs</h5>
+
+        <!-- Wann sollte ich EBS-volumes verwenden -->
+        <h5 class="text-xl font-bold text-white mt-4">Wann sollte EBS-volume verwendet werden? </h5>
 
         <!-- Legende -->
         <h5 class="text-xl font-bold text-white mt-4">Legende</h5>
