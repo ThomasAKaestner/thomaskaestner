@@ -151,6 +151,7 @@ export default {
       EC2StorageOptionsTitel: 'AWS EC2 Speicheroptionen',
       EC2StorageOptionsText: 'Amazon Elastic Compute Cloud (EC2) bietet verschiedene Speicheroptionen, die es Benutzern ermöglichen, die Leistung, Kapazität und Kosten ihrer EC2-Instanzen zu optimieren. Zu den Speicheroptionen gehören Amazon Elastic Block Store (EBS), Instance Store und Amazon S3. Jede Option bietet unterschiedliche Vorteile und Einsatzszenarien, die es Benutzern ermöglichen, die richtige Speicherlösung für ihre Anforderungen auszuwählen. In diesem Artikel werden die verschiedenen EC2-Speicheroptionen erläutert und Empfehlungen für ihre Verwendung gegeben.',
       EC2StorageOptionsDate: '2024-04-22',
+      EC2StorageOptionsUrl: '/blog/aws-ec2-speicher-optionen',
     };
   }
 }
