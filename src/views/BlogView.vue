@@ -1,9 +1,15 @@
 <script>
 import {defineComponent} from 'vue'
 import ListElement from "@/components/blog/ListElement.vue";
+import AWSEC2NetzwerkOptionen from "@/views/articles/AWSEC2NetzwerkOptionen.vue";
 
 export default defineComponent({
   name: "BlogView",
+  computed: {
+    AWSEC2NetzwerkOptionen() {
+      return AWSEC2NetzwerkOptionen
+    }
+  },
   components: {ListElement}
 })
 </script>
@@ -14,6 +20,12 @@ export default defineComponent({
       <h1 class="text-4xl font-bold">Tech Blog</h1>
       <p>Updates, Tips & Meinungen über PHP, Symfony, Laravel, Golang, AWS, Kubernetes, Terraform und Docker.</p>
       <ul class="divide-y divide-gray-400">
+        <ListElement
+            :title="AWSEC2NetzwerkOptionTitel"
+            :text="AWSEC2NetzwerkOptionText"
+            :date="AWSEC2NetzwerkOptionDate"
+            :url="AWSEC2NetzwerkOptionUrl"
+        ></ListElement>
         <ListElement
             :title="EC2StorageOptionsTitel"
             :text="EC2StorageOptionsText"
@@ -152,6 +164,12 @@ export default {
       EC2StorageOptionsText: 'Amazon Elastic Compute Cloud (EC2) bietet verschiedene Speicheroptionen, die es Benutzern ermöglichen, die Leistung, Kapazität und Kosten ihrer EC2-Instanzen zu optimieren. Zu den Speicheroptionen gehören Amazon Elastic Block Store (EBS), Instance Store und Amazon S3. Jede Option bietet unterschiedliche Vorteile und Einsatzszenarien, die es Benutzern ermöglichen, die richtige Speicherlösung für ihre Anforderungen auszuwählen. In diesem Artikel werden die verschiedenen EC2-Speicheroptionen erläutert und Empfehlungen für ihre Verwendung gegeben.',
       EC2StorageOptionsDate: '2024-04-22',
       EC2StorageOptionsUrl: '/blog/aws-ec2-speicher-optionen',
+
+
+      AWSEC2NetzwerkOptionTitel: 'AWS EC2 Netzwerkoptionen',
+      AWSEC2NetzwerkOptionText: 'Amazon EC2 bietet verschiedene Netzwerkoptionen, um die Anforderungen Ihrer Anwendung zu erfüllen. In diesem Artikel werden die verschiedenen Netzwerkoptionen von Amazon EC2 erläutert und wie Sie die richtige Option für Ihre Anwendung auswählen können.',
+      AWSEC2NetzwerkOptionDate: '2024-04-23',
+      AWSEC2NetzwerkOptionUrl: '/blog/aws-ec2-netzwerk-optionen',
     };
   }
 }

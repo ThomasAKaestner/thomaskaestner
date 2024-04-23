@@ -14,6 +14,7 @@ import StatusUpdatesModelleAnLambda from "@/views/articles/StatusUpdatesModelleA
 import Shopware6Experte from "@/views/jobs/Shopware6Experte.vue";
 import PageNotFound from "@/views/PageNotFound.vue";
 import EC2StorageOptions from "@/views/articles/EC2StorageOptions.vue";
+import AWSEC2NetzwerkOptionen from "@/views/articles/AWSEC2NetzwerkOptionen.vue";
 
 Vue.use(VueRouter)
 
@@ -85,6 +86,11 @@ const routes = [
         path: '/blog/aws-ec2-speicher-optionen',
         name: 'aws-ec2-speicher-optionen',
         component: EC2StorageOptions
+    },
+    {
+        path: '/blog/aws-ec2-netzwerk-optionen',
+        name: 'aws-netzwerk-optionen',
+        component: AWSEC2NetzwerkOptionen
     },
     {
         path: '/shopware-6',
