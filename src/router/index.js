@@ -15,6 +15,7 @@ import Shopware6Experte from "@/views/jobs/Shopware6Experte.vue";
 import PageNotFound from "@/views/PageNotFound.vue";
 import EC2StorageOptions from "@/views/articles/EC2StorageOptions.vue";
 import AWSEC2NetzwerkOptionen from "@/views/articles/AWSEC2NetzwerkOptionen.vue";
+import LinuxCommandsCheatSheet from "@/views/articles/LinuxCommandsCheatSheet.vue";
 
 Vue.use(VueRouter)
 
@@ -97,8 +98,15 @@ const routes = [
         name: 'shopware-6',
         component: Shopware6Experte
     },
-    { path: "*",
-        component: PageNotFound }
+    {
+        path: "*",
+        component: PageNotFound
+    },
+    {
+        path: '/blog/linux-commands-cheat-sheet',
+        component: LinuxCommandsCheatSheet
+
+    }
 
 ]
 

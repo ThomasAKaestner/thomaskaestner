@@ -35,16 +35,17 @@
         </div>
       </div>
     </div>
-
+    <h4 class="text-3xl md:text-5xl customThirdTextColor font-bold mb-6">Was ich anbiete ...</h4>
     <div class="flex">
       <div>
         <img src="/img/icons/shopware_products.png" alt="Shopware 6" style="width:800px" class="w-auto object-cover overflow-hidden">
       </div>
-      <div>
-        <ul class="list-disc text-left">
+      <div class="flex justify-center items-center">
+        <ul class="list-disc text-xl text-left">
           <li>Shopware 6 Beratung</li>
           <li>Shopware Integration in Ihre Technologie-Landschaft: PIM, ERP-Systeme, CRM-Systeme und mehr.</li>
           <li>Shopware Plugin Entwicklung</li>
+          <li>Migration von Shopware 5 auf Shopware 6</li>
           <li>Shopware 6 QA mit Cypress</li>
           <li>Migration von anderen Shopsystemen zu Shopware 6</li>
           <li>Shopware 6 - Prozess Automatisierung</li>
@@ -52,12 +53,9 @@
       </div>
     </div>
 
-    <div class="flex">
-      <div>Meine Fähigkeiten:</div>
-    </div>
-
+    <!-- Shopware 6 Qualitätssicherung -->
     <div>
-      <div class="text-3xl">Shopware 6 Qualitätssicherung</div>
+      <h4 class="text-3xl md:text-5xl customThirdTextColor font-bold mb-6">Shopware 6 Qualitätssicherung</h4>
       <div class="flex">
         <div class="flex">
           <img src="/img/icons/shopware_icon.png" alt="Shopware 6" class="h-32 w-32 object-cover overflow-hidden">

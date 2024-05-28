@@ -21,6 +21,12 @@ export default defineComponent({
       <p>Updates, Tips & Meinungen über PHP, Symfony, Laravel, Golang, AWS, Kubernetes, Terraform und Docker.</p>
       <ul class="divide-y divide-gray-400">
         <ListElement
+            :title="LinuxCommandsTitle"
+            :text="LinuxCommandsText"
+            :date="LinuxCommandsDate"
+            :url="LinuxCommandsUrl"
+        ></ListElement>
+        <ListElement
             :title="AWSEC2NetzwerkOptionTitel"
             :text="AWSEC2NetzwerkOptionText"
             :date="AWSEC2NetzwerkOptionDate"
@@ -170,6 +176,11 @@ export default {
       AWSEC2NetzwerkOptionText: 'Amazon EC2 bietet verschiedene Netzwerkoptionen, um die Anforderungen Ihrer Anwendung zu erfüllen. In diesem Artikel werden die verschiedenen Netzwerkoptionen von Amazon EC2 erläutert und wie Sie die richtige Option für Ihre Anwendung auswählen können.',
       AWSEC2NetzwerkOptionDate: '2024-04-23',
       AWSEC2NetzwerkOptionUrl: '/blog/aws-ec2-netzwerk-optionen',
+
+      LinuxCommandsTitle: 'Linux Essentials (010-160) Cheatsheet',
+      LinuxCommandsText: 'Kurze Zusammenfassung der wichtigsten Linux Befehle für die LPI Essentials (010-160) Prüfung.',
+      LinuxCommandsDate: '2024-05-12',
+      LinuxCommandsUrl: '/blog/linux-commands-cheat-sheet',
     };
   }
 }
