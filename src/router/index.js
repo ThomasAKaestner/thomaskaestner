@@ -16,6 +16,7 @@ import PageNotFound from "@/views/PageNotFound.vue";
 import EC2StorageOptions from "@/views/articles/EC2StorageOptions.vue";
 import AWSEC2NetzwerkOptionen from "@/views/articles/AWSEC2NetzwerkOptionen.vue";
 import LinuxCommandsCheatSheet from "@/views/articles/LinuxCommandsCheatSheet.vue";
+import SolidPrinciplesInPHP from "@/views/articles/SolidPrinciplesInPHP.vue";
 
 Vue.use(VueRouter)
 
@@ -106,6 +107,10 @@ const routes = [
         path: '/blog/linux-commands-cheat-sheet',
         component: LinuxCommandsCheatSheet
 
+    },
+    {
+        path: '/blog/solid-principles-in-php',
+        component: SolidPrinciplesInPHP
     }
 
 ]

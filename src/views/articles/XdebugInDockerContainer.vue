@@ -71,7 +71,6 @@
                         </ol>
                         <p>Diese Dockerfile erstellt also ein Docker-Image, das PHP 8.3 mit Xdebug-Unterstützung basierend auf dem FPM-Manager enthält und dabei unnötige Dateien und temporäre Verzeichnisse entfernt, um die Image-Größe zu minimieren.</p>
                     </div>
-
                 </div>
 
                 <!-- php-ini-overrides.ini anlegen -->

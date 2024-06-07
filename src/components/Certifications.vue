@@ -54,6 +54,15 @@
           <img class="w-32" src="img/certifications/linux_essentials.png">
           <p class="font-bold py-2">LPI Linux Essentials</p>
         </a>
+
+        <!--
+        <a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000613441/v7hbpdc5cj"
+           class="flex flex-col items-center cursor-pointer"
+        >
+          <img class="w-32" src="img/certifications/redis.png">
+          <p class="font-bold py-2">Redis certified developer</p>
+        </a>
+        -->
       </div>
     </div>
   </div>

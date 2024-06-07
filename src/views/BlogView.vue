@@ -97,6 +97,12 @@ export default defineComponent({
             :date="dockerXdebugTitleDate"
             :url="dockerXdebugUrl"
         ></ListElement>
+        <ListElement
+            :title="solidPrinciplesInPHPTitle"
+            :text="solidPrinciplesInPHPText"
+            :date="solidPrinciplesInPHPDate"
+            :url="solidPrinciplesInPHPUrl"
+        ></ListElement>
       </ul>
     </div>
   </div>
@@ -181,6 +187,11 @@ export default {
       LinuxCommandsText: 'Kurze Zusammenfassung der wichtigsten Linux Befehle für die LPI Essentials (010-160) Prüfung.',
       LinuxCommandsDate: '2024-05-12',
       LinuxCommandsUrl: '/blog/linux-commands-cheat-sheet',
+
+      solidPrinciplesInPHPTitle: 'SOLID Principles in PHP',
+      solidPrinciplesInPHPText: 'Die SOLID-Prinzipien sind grundlegende Designprinzipien, die Entwicklern helfen, sauberen und wartbaren Code zu schreiben. In diesem Artikel werden die fünf SOLID-Prinzipien erläutert und anhand von Beispielen in PHP demonstriert.',
+      solidPrinciplesInPHPDate: '2020-01-05',
+      solidPrinciplesInPHPUrl: '/blog/solid-principles-in-php',
     };
   }
 }
