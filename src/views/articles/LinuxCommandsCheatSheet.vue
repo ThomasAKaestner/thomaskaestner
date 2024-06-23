@@ -26,6 +26,142 @@
         <!-- Wichtige Linux Distros -->
         <div>
           <h2 class="font-bold text-3xl pt-2">Wichtige Linux Distros:</h2>
+          <div class="pl-4">
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Ubuntu</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Debian</li>
+                <li><b>Zielgruppe:</b> Anfänger, Desktop-Nutzer, Entwickler</li>
+                <li><b>Eigenschaften:</b> Benutzerfreundlich, große Community, regelmäßige Updates. Ubuntu ist eine der
+                  beliebtesten Distributionen und bietet eine einfache Installation sowie Support für eine Vielzahl von
+                  Hardware.
+                </li>
+                <li><b>Desktop-Umgebungen:</b> GNOME (Standard), aber auch KDE, Xfce (Xubuntu), LXQt (Lubuntu) und
+                  andere.
+                </li>
+                <li><b>Dateinamenerweiterung:</b> Debian-Paket (deb)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Debian</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Eigenständig</li>
+                <li><b>Zielgruppe:</b> Stabilitätsliebende Nutzer, Server-Admins</li>
+                <li><b>Eigenschaften:</b> Sehr stabil, aber nicht die neueste Softwareversion. Debian ist bekannt für
+                  seine Stabilität und Freiheit von proprietärer Software.
+                </li>
+                <li><b>Desktop-Umgebungen:</b> GNOME, KDE, Xfce, LXDE und andere.</li>
+                <li><b>Dateinamenerweiterung:</b> Debian-Paket (deb)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Fedora</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Red Hat</li>
+                <li><b>Zielgruppe:</b> Entwickler, Technologie-Enthusiasten</li>
+                <li><b>Eigenschaften:</b> Bleeding Edge, bietet neueste Technologien und Features. Fedora wird oft als
+                  Testfeld für Red Hat Enterprise Linux verwendet.
+                </li>
+                <li><b>Desktop-Umgebungen:</b> GNOME (Standard), aber auch KDE, Xfce, LXDE.</li>
+                <li><b>Dateinamenerweiterung:</b> RPM-Paket (rpm)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">CentOS (Rocky Linux/AlmaLinux)</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Red Hat Enterprise Linux (RHEL)</li>
+                <li><b>Zielgruppe:</b> Server-Admins, Unternehmen</li>
+                <li><b>Eigenschaften:</b> Stabilität auf Unternehmensebene, wird oft für Server verwendet. Rocky Linux
+                  und AlmaLinux entstanden als Nachfolger von CentOS.
+                </li>
+                <li><b>Desktop-Umgebungen:</b> GNOME, KDE.</li>
+                <li><b>Dateinamenerweiterung:</b> RPM-Paket (rpm)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Arch Linux</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Eigenständig</li>
+                <li><b>Zielgruppe:</b> Fortgeschrittene Nutzer, die ihr System vollständig anpassen wollen</li>
+                <li><b>Eigenschaften:</b> Rolling Release, minimalistisch, hohe Anpassbarkeit. Arch Linux erfordert eine
+                  manuelle Installation und Konfiguration.
+                </li>
+                <li><b>Desktop-Umgebungen:</b> Benutzerdefiniert (der Nutzer wählt seine bevorzugte Desktop-Umgebung
+                  selbst).
+                </li>
+                <li><b>Dateinamenerweiterung:</b> Pacman-Paket (pkg.tar.zst)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Manjaro</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Arch Linux</li>
+                <li><b>Zielgruppe:</b> Anfänger bis Fortgeschrittene, die ein Arch-basiertes System wollen</li>
+                <li><b>Eigenschaften:</b> Benutzerfreundlich, mit grafischem Installer und regelmäßigen Updates. Manjaro
+                  bringt die Vorteile von Arch ohne die komplizierte Installation.
+                </li>
+                <li><b>Desktop-Umgebungen:</b> XFCE (Standard), KDE, GNOME und andere.</li>
+                <li><b>Dateinamenerweiterung:</b> Pacman-Paket (pkg.tar.zst)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">openSUSE</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Eigenständig</li>
+                <li><b>Zielgruppe:</b> Entwickler, Unternehmen, fortgeschrittene Desktop-Nutzer</li>
+                <li><b>Eigenschaften:</b> Sehr stabil, bietet sowohl ein Fixed-Release-Modell (Leap) als auch ein
+                  Rolling-Release-Modell (Tumbleweed).
+                </li>
+                <li><b>Desktop-Umgebungen:</b> KDE (Standard), GNOME und andere.</li>
+                <li><b>Dateinamenerweiterung:</b> RPM-Paket (rpm)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Linux Mint</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Ubuntu</li>
+                <li><b>Zielgruppe:</b> Anfänger, die eine traditionelle Desktop-Erfahrung wollen</li>
+                <li><b>Eigenschaften:</b> Benutzerfreundlich, kommt mit Multimedia-Codecs und einer vertrauten
+                  Benutzeroberfläche. Mint bietet eine „Out-of-the-Box“-Erfahrung.
+                </li>
+                <li><b>Desktop-Umgebungen:</b> Cinnamon (Standard), MATE, Xfce.</li>
+                <li><b>Dateinamenerweiterung:</b> Debian-Paket (deb)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Pop!_OS</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Ubuntu</li>
+                <li><b>Zielgruppe:</b> Entwickler, Gamer</li>
+                <li><b>Eigenschaften:</b> Optimiert für Entwickler und kreative Anwendungen, mit einer
+                  benutzerfreundlichen GNOME-basierten Oberfläche. Native Unterstützung für NVIDIA-Grafikkarten.
+                </li>
+                <li><b>Desktop-Umgebung:</b> GNOME (modifiziert).</li>
+                <li><b>Dateinamenerweiterung:</b> Debian-Paket (deb)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-2xl pt-2">Kali Linux</h3>
+              <ul class="list-disc">
+                <li><b>Basis:</b> Debian</li>
+                <li><b>Zielgruppe:</b> Sicherheitsexperten, Penetrationstester</li>
+                <li><b>Eigenschaften:</b> Speziell für Sicherheitsüberprüfungen und Penetrationstests entwickelt, mit
+                  einer Vielzahl von Werkzeugen für Sicherheitsanalysen.
+                </li>
+                <li><b>Desktop-Umgebung:</b> Xfce (Standard), GNOME, KDE.</li>
+                <li><b>Dateinamenerweiterung:</b> Debian-Paket (deb)</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <!-- Linux Directory -->
         <div>
